@@ -7,8 +7,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup --verbose",
-    "deploy-nocc": "push-dir --dir=dist --branch=gh-pages --verbose"
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup --verbose"
   },
   "dependencies": {
     "@nuxt/content-theme-docs": "^0.11.0",
