@@ -22,3 +22,6 @@ W razie jakichkolwiek problemów - zapraszamy do kontaktu.
 **Listopad 2021**
 - Certyfikaty
 - Community
+
+**Październik 2021**
+- Integracja z systemem płatności - Stripe
