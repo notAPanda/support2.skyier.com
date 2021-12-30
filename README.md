@@ -6,12 +6,8 @@
 npm run dev
 ```
 
-## Deploy
-
-```bash
-npm run generate
-npm run deploy
-```
+## Deployment
+git push main
 
 ## Documentation
 
