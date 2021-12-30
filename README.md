@@ -1,12 +1,4 @@
-# nuxt.support.skyier.pl
-
-## Setup
-
-Install dependencies:
-
-```bash
-npm run install
-```
+# support2.skyier.pl
 
 ## Development
 
@@ -14,14 +6,13 @@ npm run install
 npm run dev
 ```
 
-## Static Generation
-
-This will create the `dist/` directory for publishing to static hosting:
+## Deploy
 
 ```bash
 npm run generate
+npm run deploy
 ```
 
-To preview the static generated app, run `npm run start`
+## Documentation
 
 For detailed explanation on how things work, checkout [nuxt/content](https://content.nuxtjs.org) and [@nuxt/content theme docs](https://content.nuxtjs.org/themes-docs).
