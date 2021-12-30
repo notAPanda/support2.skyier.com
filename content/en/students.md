@@ -1,0 +1,37 @@
+---
+title: Studenci
+description: ''
+position: 7
+category: ''
+---
+
+## Dodawanie studenta
+
+1. Aby dodać studenta do platformy należy wybrać z górnego menu zakłądkę **STUDENCI**.
+2. A następnie kliknąć **Dodaj studenta**. W przypadku, kiedy chcemy dodać większą ilość osób wybieramy **Importuj studentów**. 
+
+<img src="/img/screen-dodawanie-studentow.png" alt=""/>
+
+Wpisujemy imię i adres e-mail studenta.
+
+<img src="/img/screen-formularz-dodania.png" alt=""/>
+
+Na podany e-mail uczestnik otrzyma wiadomość z danymi do logowania (e-mail, hasło). Hasło może zostać przez studenta zmienione po zalogowaniu do platformy. 
+
+<img src="/img/screen-mail.jpg" alt=""/>
+
+## Nadawanie dostępu
+
+**Jeśli chcemy dać dostęp studentowi do kursu to możemy to zrobić na dwa sposoby.
+
+**Zalecany w przypadku, kiedy chcemy nadać dostęp dla konkretnego studenta.** 
+
+Klikamy w e-mail studenta i przechodzimy na stronę, gdzie wybieramy kurs, do którego chcemy nadać dostęp
+
+<img src="/img/screen-dostep-kurs.jpg" alt=""/>
+
+**Zalecany w przypadku, kiedy chcemy nadać dostęp dla wielu studentów.**
+
+Przechodzimy do zakładki **SPRZEDAŻ** -> klikamy **Zarządzaj dostępami**, następnie podajemy e-maile oraz wybieramy kurs, do którego uczestnicy powinni mieć dostęp. 
+
+<img src="/img/screen-dostep-kurs-wiele.png" alt=""/>
