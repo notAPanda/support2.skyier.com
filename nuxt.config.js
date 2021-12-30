@@ -19,9 +19,4 @@ i18n: {
     primaryColor: '#E24F55'
   },
   target: 'static',
-  // head: {
-  //   link: [
-  //     {rel: 'icon', type: 'image/x-icon', href: '/img/favicon.ico'}
-  //   ],
-  // },
 })
