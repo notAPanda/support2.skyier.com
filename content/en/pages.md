@@ -17,7 +17,7 @@ Aby dodać stronę typu landing page należy przejść do **zakładki Strony -> 
 
 ## Strona sprzedażowa produktu (kursu online, pakietu, konsultacji, live)
 
-1. Aby stworzyć stronę sprzedażową kursu należy wybrać **Produkty -> Strona sprzedażowa wybranego produktu.** 
+Aby stworzyć stronę sprzedażową kursu należy wybrać **Produkty -> Strona sprzedażowa wybranego produktu.** 
 
 <img src="/img/screen-strona-sprzedazowa-edycja.jpg" alt=""/>
 
@@ -25,26 +25,26 @@ Aby dodać stronę typu landing page należy przejść do **zakładki Strony -> 
 
 ## Strony podziękowania po zakupie
 
-Możesz stworzyć jedną stronę podziękowania, taką samą dla wszystkich produktów. Oraz wiele stron podziękowania, różnych dla wybranych produktów. Poniżej omawiamy dwa przypadki. 
+Możesz stworzyć jedną stronę podziękowania, taką samą (identyczną) dla wszystkich produktów. Oraz wiele stron podziękowania, różnych dla wybranych produktów. Poniżej omawiamy dwa przypadki. 
 
 **Założmy, że masz na swojej platformie produkt A, B, C i chcesz stworzyć jedną stronę podziękowania po zakupie. Stronę, która będzie pojawiała się po zakupie każdego z tych produktów.** 
 
-1. Aby stworzyć taką stronę należy przejść do **zakładki Strony -> Dodaj stronę.** I wybrać opcję Strona podziękowania po zakupie.
+Aby stworzyć taką stronę należy przejść do **zakładki Strony -> Dodaj stronę.** I wybrać opcję Strona podziękowania po zakupie.
 
 <img src="/img/screen-strona-podziekowania.jpg" alt=""/>
 
-2. A następnie przejść do edycji tej strony i dodać treść.
+A następnie przejść do edycji tej strony i dodać treść.
 
 Dodanej strony nie można potem usunąć z panelu. W momencie, kiedy chcesz zrezygnować z jej wyświetlania, przejdź do edycji i usuń dodaną treść. Wówczas użytkownicy po zakupie nie zobaczą żadnych dodatkowych informacji.
 
 
 **Założmy, że masz na swojej platformie produkt A, B, C i chcesz stworzyć oddzielne strony podziękowania. Czyli produkt A będzie miał swoją stronę po zakupie, produkt B swoją i produkt C swoją.** 
 
-1. Aby stworzyć taką stronę dla produktu A należy wejść w **Edycję produktu**
+Aby stworzyć taką stronę dla produktu A należy wejść w **Edycję produktu**
 
 <img src="/img/screen-edycja-kursu.jpg" alt=""/>
 
-2. A następnie przejść do sekcji **Strony** i wybrać *Dodaj stronę z podziękowaniem po zakupie*.
+A następnie przejść do sekcji **Strony** i wybrać *Dodaj stronę z podziękowaniem po zakupie*.
 
 <img src="/img/screen-strona-podziekowania-2.jpg" alt=""/>
 
