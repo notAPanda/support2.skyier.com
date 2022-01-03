@@ -1,7 +1,7 @@
 ---
 title: Integracje - systemy płatności
 description: ''
-position: 10
+position: 11
 category: ''
 ---
 
