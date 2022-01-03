@@ -1,7 +1,7 @@
 ---
 title: Społeczność
 description: ''
-position: 2
+position: 8
 category: ''
 ---
 
