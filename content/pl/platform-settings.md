@@ -7,7 +7,7 @@ category: ''
 
 ## Ustawienia
 * **Nazwa strony** - nazwa ta będzie widoczna w lewym górnym rogu (tam, gdzie najczęściej wstawiane jest logo). Jeśli natomiast dodasz logo w poniższej sekcji OBRAZY to wówczas Nazwa strony zostanie zastąpiona logo. 
-* **Domena** - adres url, pod jakim będzie dostępna platforma do sprzedaży kursów. Przykład: kursy.nataliablizniuk.pl.
+* **Domena** - adres url, pod jakim będzie dostępna platforma do sprzedaży kursów. Przykład: kursy.nataliablizniuk.pl. Instrukcję, jak przekierować domenę znajdziesz tutaj https://www.youtube.com/watch?v=cMElydWM6f8
 * **Język strony** - wersja językowa, w jakim będzie dostępna platforma dla studentów. Można wybrać wersję polską lub angielską.
 * **Waluta** - waluta, w jakiej będą pobierane opłaty za kursy online. Dostępne waluty: PLN, USD, GBP, EUR, CHF. 
 

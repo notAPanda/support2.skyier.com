@@ -17,20 +17,14 @@ Wprowadź ustawienia.
 
 <img src="/img/screen-woocommerce.png" alt=""/>
 
-**Nazwa:** podaj nazwę, abyś wiedział do czego został stworzony ten Webhook
-
-**Status:** ustaw Włączono
-
-**Temat:** ustaw Zamówienie zaktualizowane
-
-**Url Dostawy:** podaj https://subdomena.domena.pl/api/wp/woocommerce/webhook. 
+* **Nazwa:** podaj nazwę, abyś wiedział do czego został stworzony ten Webhook
+* **Status:** ustaw Włączono
+* **Temat:** ustaw Zamówienie zaktualizowane
+* **Url Dostawy:** podaj https://subdomena.domena.pl/api/wp/woocommerce/webhook. 
 Przykład: adres url, pod jakim prowadzisz platformę to: https://kursy.jankowalski.pl, zatem Twój Url Dostawy to: https://kursy.jankowalski.pl/api/wp/woocommerce/webhook.
-
-**Klucz prywatny:** ustal swój 12-cyfrowy klucz bezpieczeństwa
-
-**Wersja Api:** ustaw Integracja WP Rest API v3
-
-**Zapisz Webhooka**
+* **Klucz prywatny:** ustal swój 12-cyfrowy klucz bezpieczeństwa
+* **Wersja Api:** ustaw Integracja WP Rest API v3
+* **Zapisz Webhooka**
 
 ## Ustawienia w Skyier
 
