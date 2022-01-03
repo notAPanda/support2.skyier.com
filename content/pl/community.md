@@ -1,48 +1,91 @@
 ---
 title: Społeczność
 description: ''
-position: 2
+position: 8
 category: ''
 ---
 
-## Tworzenie konsultacji
+## Włączenie społeczności
 
-Aby dodać konsultację wybierz w górnym menu zakładkę **PRODUKTY**.
+Aby włączyć społeczność należy wejść w **Ustawienia strony -> Funkcje i włączyć opcję Społeczności.** 
 
-A następnie wpisz **Tytuł**, zaznaczyć **Konsultacja online** i kliknij **Dodaj produkt**.
+Jest to konieczne, aby posty wyświetlały się na platformie studentów. 
 
-<img src="/img/screen-dodanie-konsultacji.jpg" alt=""/>
+<img src="/img/screen-wl-spolecznosci.png" alt=""/>
 
-Podaj cenę za konsultację.
-
-Przygotowuj **WIADOMOŚĆ PO ZAKUPIE**. Jest to wiadomość, jaką otrzyma użytkownik na maila po zakupie konsultacji. Jeśli posiadasz swój kalendarz do umawiania spotkań to dobrze jest w takiej wiadomości zamieścić link do takiego kalendarza (Google, Calendly, itp.). Aby użytkownik wybrał dogodny dla siebie termin oraz godzinę. Jeśli jednak nie posiadasz kalendarza to możesz w treści wiadomości napisać krótką instrukcję. 
-
-<img src="/img/screen-konsultacja.png" alt=""/>
-
-Kliknij **Zapisz i podejrzyj**. Sprawdź, czy wszystko wygląda poprawnie. 
-
-Stwórz **Stronę sprzedażową**, z informacjami na temat konsultacji i z przyciskiem do zakupu. 
-
-<br/>
-
-## Jak działa markdown? 
-
-Podstawowe znaczniki
-
-Jeśli chcesz zrobić jakiś nagłówek H1 to należy przed nim dodać jeden "hasztag". Np. # Dzień dobry
 <br>
-Jeśli chcesz zrobić jakiś nagłówek H1 to należy przed nim dodać dwa "hasztagi". Np. ## Dzień dobry
-<br>
-Jeśli chcesz zrobić jakiś nagłówek H1 to należy przed nim dodać trzy "hasztagi". Np. ### Dzień dobry
-<br>
-Jeśli chcesz zrobić jakiś nagłówek H1 to należy przed nim dodać cztery "hasztagi". Np. #### Dzień dobry
-<br>
-Jeśli chcesz zrobić jakiś nagłówek H1 to należy przed nim dodać pięć "hasztagów". Np. ##### Dzień dobry
-<br>
-Jeśli chcesz zrobić jakiś nagłówek H1 to należy przed nim dodać sześć "hasztagów". Np. ###### Dzień dobry
 
-**wyboldowanie**. Aby pogrubić wyraz lub zdanie należy wstawić przed nim i za nim dwie gwiazdki. Jak na powyższym screenie.
+## Dodawanie postów
+
+Aby dodać post należy kliknąć przycisk **Dodaj**
+
+Podaj:
+* **Tytuł posta**
+* **Treść posta**
+* **Załącz ewentualnie zdjęcie lub link do filmiku**
+
+Wybierz do jakiego tematu (kategorii) ma zostać przypisany post.
+
 <br>
-*kursywa*. Aby napisać wyraz lub zdanie kursywą należy wstawić przed nim i za nim jedną gwiazdkę. Jak na powyższym screenie. 
+
+## Usuwanie postów
+
+Aby usunąć post, kliknij w tytuł posta, który chcesz usunąć.
+
+A następnie wybierz ikonkę **3 pionowych kropek**.
+
+Wybierz **Usuń**
+
 <br>
-[I'm an inline-style link](https://www.google.com). Aby wstawić link do zdania należy w nawiasach [] wstawić zdanie, które chcemy podlinkować, a obok w nawiasach () wstawić link do strony, do której chcemy odesłać użytkownika.
+
+## Edytowanie postów
+
+Aby zmienić tytuł, treść czy zdjęcie posta kliknij w tytuł posta, który chcesz edytować.
+
+A następnie wybierz ikonkę **3 pionowych kropek**.
+
+Wybierz **Edytuj**
+
+Zapisz zmiany.
+
+<br>
+
+## Tworzenie kategorii
+
+Aby stworzyć nową kategorię wybierz ikonkę **+**.
+
+A następnie podaj:
+* **Tytuł kategorii**
+* **Opis ketegorii** - czego będzie dotyczyła
+* **Widoczność** - wybierz, dla jakiej grupy mają wyświetlać się posty dodawane w tym temacie.
+
+Możesz wybrać:
+* **publiczny** - posty będą się wyświetlały dla osób, które mają założone konto w platformie (nie muszą mieć kupionego żadnego kursu. Wystarczy, że dokonały rejestracji,)
+* **ograniczony** - możesz wybrać, dla jakiej konkretnie grupy mają wyświetlać się posty. 
+
+Tematy pozwalają wprowadzić porządek tematyczny i przypisywać różne kategorii do różnych grup docelowych.
+
+<br>
+
+## Edytowanie kategorii 
+
+Aby edytować temat wybierz temat, który chcesz edytować.
+
+A następnie kliknij **3 pionowe kropki**.
+
+Wybierz **Edytuj**.
+
+Zapisz zmiany
+
+<br>
+
+## Usuwanie kategorii
+
+Aby usunąć temat wybierz temat, który chcesz usunąć.
+
+A następnie kliknij **3 pionowe kropki**.
+
+Wybierz **Usuń**.
+
+
+

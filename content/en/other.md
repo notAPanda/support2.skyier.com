@@ -96,3 +96,21 @@ Kliknij w przycisk **Dodaj artykuł.**
 Aby opublikować artykuł należy kliknąć szary przełącznik. **Po kliknięciu kolor zmieni się na niebieski,** co oznacza, że artykuł został opublikowany. 
 
 <img src="/img/screen-publikacja-artykulu.jpg" alt=""/>
+
+<br>
+
+## Certyfikaty
+
+Aby włączyć możliwość wysyłania certyfikatów po zakończeniu kursu online należy wejść w **Edycję kursu.**
+
+<img src="/img/screen-edycja-kursu.jpg" alt=""/>
+
+A następnie przejść do sekcji **CERTYFIKATY** i włączyć opcję **Generuj certyfikat po ukończeniu kursu.**
+
+<img src="/img/screen-wlaczenie-certyfikatu.png" alt=""/>
+
+Pokażą się 3 pole na nagłówki, które należy wypełnić swoim tekstem. 
+
+Na koniec Zapisz i zobacz projekt certyfikatu. 
+
+<img src="/img/screen-gotowy-certyfikat.png" alt=""/>

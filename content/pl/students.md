@@ -56,7 +56,7 @@ Kliknij w niego, a uczestnik zostanie usunięty w platformy, a wraz ze wszystkim
 
 <br>
 
-## Usuwanie studenta
+## Ustawianie hasła
 
 Aby ustawić hasło dla studenta wejdź w zakładkę **STUDENCI**.
 
