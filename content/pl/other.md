@@ -114,3 +114,15 @@ Pokażą się 3 pole na nagłówki, które należy wypełnić swoim tekstem.
 Na koniec Zapisz i zobacz projekt certyfikatu. 
 
 <img src="/img/screen-gotowy-certyfikat.png" alt=""/>
+
+<br>
+
+## Śledzenie postępów
+
+Aby sprawdzić postępy uczestników w nauce, należy wybrać zakładkę **PRODUKTY**.
+
+A następnie przy wybranym kursie wybrać opcję **Zaanagżowanie**.
+
+<img src="/img/screen-zaangazowanie.png" alt=""/>
+
+Przejdziesz na stronę, gdzie otrzymasz listę uczestników kursu wraz z ich postępem w nauce. 
