@@ -1,7 +1,7 @@
 ---
 title: Sprzedaż
 description: ''
-position: 6
+position: 7
 category: ''
 ---
 

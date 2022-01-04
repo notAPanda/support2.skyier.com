@@ -1,7 +1,7 @@
 ---
 title: Ustawienia platformy
 description: ''
-position: 13
+position: 14
 category: ''
 ---
 
