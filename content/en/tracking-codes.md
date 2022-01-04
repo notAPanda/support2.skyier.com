@@ -11,7 +11,7 @@ Jest tam możliwość umieszczania kodów w sekcji <head> lub <body>, w zależno
 
 Kod pixel FB i Google Analytics rekomendujemy dodanie w sekcji <head>.
 
-<img src="/img/screen-tracking-codes.jpg" alt=""/>
+<img src="/img/screen-javascript.jpg" alt=""/>
 
 **Ważne** 
 
