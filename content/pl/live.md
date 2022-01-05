@@ -83,3 +83,5 @@ Możesz również zrobić wydarzenie, jako:
 Jeśli natomiast chcesz zostawić dodatkowe informacje osobom zapisanym na webinar wówczas użyj funkcji: **Pokaż dodatkową wiadomość**. Ta wiadomość będzie wyświetlana od momentu, kiedy ją dodasz, do momentu, kiedy ją skasujesz. 
 
 <img src="/img/screen-skyier-live-3.png" alt=""/>
+
+**Ważne** Po zakończeniu transmisji YouTube automatycznie nagra Ci wideo. Wideo to będzie również dostępne w platformie. Jeśli nie chcesz, aby była możliwość jego późniejszego oglądania to usuń to wideo z YT lub usuń ze Skyier embed url. 
