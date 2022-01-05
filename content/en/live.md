@@ -52,6 +52,8 @@ Otwórz link w nowym oknie. Wybierz ponownie opcję **Udostępnij -> Umieść**.
 
 <img src="/img/screen-YT-8.png" alt=""/>
 
+<br>
+
 ### Ustawienia w Skyier
 
 Po zalogowaniu utwórz produkt typu live. Aby to zrobić przejdź do **PRODUKTY -> Dodaj -> podaj tytuł live i wybierz wariant Wydarzenie**.
