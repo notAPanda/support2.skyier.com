@@ -166,6 +166,8 @@ Jeśli nie masz aktywowanej na swoim koncie bankowym platności Paynow to w pier
 
 **Aby to zrobić, zaloguj się w mbanku na swoje konto biznesowe, a następnie wybierz: Mój Biznes -> Paynow -> Aktywuj.**
 
+Dopiero po aktywacji będziesz mógł przejść do wprowadzenia poniższych ustawień.
+
 
 Wybór środowiska:<br>
 - Produkcyjne - ustawiamy, kiedy chcemy przyjmować już faktyczne płatności.
@@ -184,13 +186,13 @@ Kliknij Dodaj sklep
 
 I podaj następujące dane:
 
-* **domena sklepu** - np. https://inspiracje.skyier.pl
+* **domena sklepu** - url Twojej platformy z kursami online, np. https://inspiracje.skyier.pl
 * **kategoria sklepu** - wybierz kategorią, która najlepiej odpowiada tematyce Twojej platformy
 * **platforma sklepowa** - wybierz: Własna platforma
 
 Dodaj sklep
 
-A następnie ustaw:
+Ustaw:
 
 * **adres powiadomień** - ma on strukturę: https://twojadomena/api/paynow/notify
 
