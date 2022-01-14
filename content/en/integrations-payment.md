@@ -157,3 +157,52 @@ Aby poznać Webhook Signing Secret kliknij *Reveal live key*
 Sprawdź, czy Webhook ma status: **active**.
 
 <img src="/img/screen-stripe-5.jpg" alt=""/>
+
+<br>
+
+## Paynow
+
+Jeśli nie masz aktywowanej na swoim koncie bankowym platności Paynow to w pierwszym kroku złóż wniosek. 
+
+**Aby to zrobić, zaloguj się w mbanku na swoje konto biznesowe, a następnie wybierz: Mój Biznes -> Paynow -> Aktywuj.**
+
+
+Wybór środowiska:<br>
+- Produkcyjne - ustawiamy, kiedy chcemy przyjmować już faktyczne płatności.
+- Testowe (Sandbox) - ustawiamy, kiedy chcemy przeprowadzić płatność testową. 
+
+**Gdzie znaleźć Klucz API i Signature Key?**
+
+Wybierz Mój Biznes -> Ustawienia -> Sprzedaż -> Sklepy i punkty płatności
+
+<img src="/img/screen-paynow-1.png" alt=""/>
+
+Kliknij Dodaj sklep
+
+<img src="/img/screen-paynow-2.png" alt=""/>
+
+
+I podaj następujące dane:
+
+* **domena sklepu** - np. https://inspiracje.skyier.pl
+* **kategoria sklepu** - wybierz kategorią, która najlepiej odpowiada tematyce Twojej platformy
+* **platforma sklepowa** - wybierz: Własna platforma
+
+Dodaj sklep
+
+A następnie ustaw:
+
+* **adres powiadomień** - ma on strukturę: https://twojadomena/api/paynow/notify
+
+* **adres powrotu** - ma on strukturę: https://twojadomena/transaction/pending
+
+<img src="/img/screen-paynow-3.png" alt=""/>
+
+
+A następnie skopiuj i podaj w Skyier:
+
+* **Klucz dostępu do API** -> Klucz API
+
+* **Klucz obliczania podpisu** -> Signature Key
+
+<img src="/img/screen-paynow-4.png" alt=""/>
