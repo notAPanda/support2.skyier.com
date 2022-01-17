@@ -63,9 +63,9 @@ Program afiliacyjny to rodzaj współpracy zawartej między Tobą, a reklamodawc
 
 **Jak to działa?**
 
-Załóżmy, że Twoja platforma do kursów online znajduje się pod adresem url: https://kursy.nataliablizniuk.pl. W momencie, kiedy chcesz stworzyć link afiliacyjny dla partnera należy na końcu adresu dodać parametr. Parametr (nazwę), który będzie Ci ułatwiał sprawdzanie, ilu studentów i sprzedaży wygenerował dany partner afiliacyjny.
+Załóżmy, że Twoja platforma do kursów online znajduje się pod adresem url: https://kursy.nataliablizniuk.pl. W momencie, kiedy chcesz stworzyć link afiliacyjny dla partnera należy na końcu swojego adresu url dodać parametr: **/?=nazwapartnera.** Parametr (nazwę), który będzie Ci ułatwiał sprawdzanie, ilu studentów i sprzedaży wygenerował dany partner afiliacyjny. Oczywiście to od Ciebie zależy jaką nazwę w tym parametrze podasz. Może ona składać się z liter i cyfr. 
 
-Przykład: Dla partnera chcesz stworzyć link z parametrem: przykladowy_kod. Finalnie link partnerski będzie miał postać: 
+Przykład: Dla partnera chcesz stworzyć link z parametrem na końcu: przykladowy_kod. Finalnie link partnerski będzie miał wówczas postać: 
 https://kursy.nataliablizniuk.pl/?=przykladowy_kod. I właśnie taki link przekazujesz dla swojego reklamodawcy. 
 
 Oczywiście, jeśli masz kilku partnerów afiliacyjnych to jak najbardziej możesz stworzyć kilka linków, dedykowanych dla każdego z nich.
@@ -80,7 +80,7 @@ A w zakładce SPRZEDAŻ, ile osób zakupiło kurs z danego linku partnerskiego.
 
 <img src="/img/screen-link-af-2.jpg" alt=""/>
 
-Prowadzenie rozliczeń pomiędzy Tobą, a patnerami afiliacyjnymi należy robić już we własnym zakresie. Platforma wyłącznie zlicza rejestrację studentów i zakup. Ale nie posiada panelu do zarządzania partnerami.
+Prowadzenie rozliczeń pomiędzy Tobą, a patnerami afiliacyjnymi należy robić już we własnym zakresie. Platforma wyłącznie zlicza rejestrację studentów i zakup. Ale nie posiada panelu do prowadzenia rozliczeń z partnerami.
 
 <br/>
 
