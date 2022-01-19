@@ -63,7 +63,7 @@ Program afiliacyjny to rodzaj współpracy zawartej między Tobą, a reklamodawc
 
 **Jak to działa?**
 
-Załóżmy, że Twoja platforma do kursów online znajduje się pod adresem url: https://kursy.nataliablizniuk.pl. W momencie, kiedy chcesz stworzyć link afiliacyjny dla partnera należy na końcu swojego adresu url dodać parametr: **/?=nazwapartnera.** Parametr (nazwę), który będzie Ci ułatwiał sprawdzanie, ilu studentów i sprzedaży wygenerował dany partner afiliacyjny. Oczywiście to od Ciebie zależy jaką nazwę w tym parametrze podasz. Może ona składać się z liter i cyfr. 
+Załóżmy, że Twoja platforma do kursów online znajduje się pod adresem url: https://kursy.nataliablizniuk.pl. W momencie, kiedy chcesz stworzyć link afiliacyjny dla partnera należy na końcu swojego adresu url dodać parametr: **/?af=nazwapartnera.** Parametr (nazwę), który będzie Ci ułatwiał sprawdzanie, ilu studentów i sprzedaży wygenerował dany partner afiliacyjny. Oczywiście to od Ciebie zależy jaką nazwę w tym parametrze podasz. Może ona składać się z liter i cyfr. 
 
 Przykład: Dla partnera chcesz stworzyć link z parametrem na końcu: przykladowy_kod. Finalnie link partnerski będzie miał wówczas postać: 
 https://kursy.nataliablizniuk.pl/?=przykladowy_kod. I właśnie taki link przekazujesz dla swojego reklamodawcy. 
