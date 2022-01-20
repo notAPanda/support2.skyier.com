@@ -21,11 +21,11 @@ Jest to wiadomość, jaką otrzyma użytkownik na maila po dokonaniu zakupu.
 
 Jeśli posiadasz swój kalendarz online do umawiania spotkań to zamieść do niego link (Google, Calendly, itp.). Aby użytkownik wybrał dogodny dla siebie termin oraz godzinę. Jeśli jednak nie posiadasz kalendarza to możesz w treści wiadomości napisać krótką instrukcję. 
 
-<img src="/img/screen-konsultacja-wiadomosc-1.png" alt=""/>
+<img src="/img/screen-konsultacja-przed.png" alt=""/>
 
 Kliknij **Zapisz i podejrzyj**. Sprawdź, czy wszystko wygląda poprawnie. 
 
-<img src="/img/screen-konsultacja-wiadomosc-2.png" alt=""/>
+<img src="/img/screen-konsultacja-po.png" alt=""/>
 
 Stwórz **Stronę sprzedażową**, z informacjami na temat konsultacji i z przyciskiem do zakupu. 
 
@@ -35,20 +35,20 @@ Stwórz **Stronę sprzedażową**, z informacjami na temat konsultacji i z przyc
 
 Podstawowe znaczniki
 
-* nagłówek H1 wstawiamy jeden "hasztag" przed wyrazem, np. # Dzień dobry
+* nagłówek H1 - wstaw jeden "hasztag" przed wyrazem, np. # Dzień dobry
 
-* nagłówek H2 wstawiamy dwa "hasztagi" przed wyrazem, np. ## Dzień dobry
+* nagłówek H2 - wstaw dwa "hasztagi" przed wyrazem, np. ## Dzień dobry
 
-* nagłówek H3 wstawiamy trzy "hasztagi" przed wyrazem, np. ### Dzień dobry
+* nagłówek H3 - wstaw trzy "hasztagi" przed wyrazem, np. ### Dzień dobry
 
-* **wyboldowanie** - wstawiamy przed i za wyrazem/zdaniem dwie gwiazdki
+* **wyboldowanie** - wstaw przed i za wyrazem/zdaniem dwie gwiazdki
 
-* *kursywa* - wstawiamy przed i za wyrazem/zdaniem jedną gwiazdkę
+* *kursywa* - wstaw przed i za wyrazem/zdaniem jedną gwiazdkę
 
 * [Zdanie, które chcemy podlinkować](https://www.google.com). Aby wstawić link do zdania należy w nawiasach [] wstawić zdanie, które chcemy podlinkować, a obok w nawiasach () wstawić link do strony, do której chcemy odesłać użytkownika.
 
 Wiadomość napisana w edytorze
-<img src="/img/screen-konsultacja-wiadomosc-1.png" alt=""/>
+<img src="/img/screen-konsultacja-przed.png" alt=""/>
 
 Wiadomość widoczna dla użytkownika
-<img src="/img/screen-konsultacja-wiadomosc-2.png" alt=""/>
+<img src="/img/screen-konsultacja-po" alt=""/>
