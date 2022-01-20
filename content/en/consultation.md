@@ -33,7 +33,7 @@ Stwórz **Stronę sprzedażową**, z informacjami na temat konsultacji i z przyc
 
 ## Jak działa markdown? 
 
-Podstawowe znaczniki
+Podstawowe znaczniki:
 
 * nagłówek H1 - wstaw jeden "hasztag" przed wyrazem, np. # Dzień dobry
 
@@ -47,8 +47,8 @@ Podstawowe znaczniki
 
 * [Zdanie, które chcemy podlinkować](https://www.google.com). Aby wstawić link do zdania należy w nawiasach [] wstawić zdanie, które chcemy podlinkować, a obok w nawiasach () wstawić link do strony, do której chcemy odesłać użytkownika.
 
-Wiadomość napisana w edytorze
+Wiadomość napisana w edytorze.
 <img src="/img/screen-konsultacja-przed.png" alt=""/>
 
-Wiadomość widoczna dla użytkownika
+Wiadomość widoczna dla użytkownika.
 <img src="/img/screen-konsultacja-po.png" alt=""/>
