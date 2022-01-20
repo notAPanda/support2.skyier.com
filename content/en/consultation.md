@@ -51,4 +51,4 @@ Wiadomość napisana w edytorze
 <img src="/img/screen-konsultacja-przed.png" alt=""/>
 
 Wiadomość widoczna dla użytkownika
-<img src="/img/screen-konsultacja-po" alt=""/>
+<img src="/img/screen-konsultacja-po.png" alt=""/>
