@@ -7,9 +7,9 @@ category: ''
 
 Aby dodawać kody śledzące, typu pixel Facebook'a, Google Analytics, Google Tag Manager (lub każdy inny), należy wejść do **Ustawień strony -> Javascript**
 
-Jest tam możliwość umieszczania kodów w sekcji <head> lub <body>, w zależności od tego, jakie są wytyczne konkretnego kodu.
+Jest tam możliwość umieszczania kodów w sekcji **head** lub **body**, w zależności od tego, jakie są wytyczne konkretnego kodu.
 
-Kod pixel FB i Google Analytics rekomendujemy dodanie w sekcji <head>.
+Kod pixel FB i Google Analytics rekomendujemy dodanie w sekcji **head**.
 
 <img src="/img/screen-javascript.jpg" alt=""/>
 
