@@ -114,6 +114,10 @@ Cena po uwzględnieniu kodu rabatowego (zakładając, że ustawimy kod rabatowy 
 
 <br/>
 
+## Ustalenie ceny za pomocą linku
+
+<br>
+
 ## Sprzedaż wielu licencji
 
 Aby ustawić cenę dla wielu licencji należy wejść w **Edycję kursu.**
