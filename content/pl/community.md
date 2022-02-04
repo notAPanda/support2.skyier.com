@@ -19,7 +19,7 @@ Kilka słów na temat Społeczności znajdziesz tutaj https://www.youtube.com/wa
 
 ## Jak to działa? ##
 
-W przypadku Społeczności masz możliwość dodawania:
+W przypadku Społeczności jest możliwość tworzenia:
 
 * **tematów**, przypisywanych konkretnym grupom odbiorców
 * **postów**, w obrębie tematów. Post zawiera: tytuł, tekst, zdjęcie i link embed filmiku z YT lub Vimeo.
@@ -102,7 +102,7 @@ Podaj:
 
 Wybierz do jakiego tematu (kategorii) ma zostać przypisany post.
 
-<img src="/img/screen-dodawanie-post.png" alt=""/>
+<img src="/img/screen-dodawanie-posta.png" alt=""/>
 
 <br>
 
@@ -136,15 +136,17 @@ Wybierz **Usuń**
 
 ## Dodawanie postów przez studentów
 
-Możesz zdecydować, czy studenci będą mogli dodawać posty w obrębie tematów czy też nie.
+Możesz zdecydować, czy studenci będą mogli:
 
-Możesz również zdecydować czy będą mogli dodawać posty do wszystkich tematów czy tylko wybranych.
+* **dodawać posty w obrębie tematów**
 
-Jeśli chcesz umożliwić im dodawanie postów do kokretnej kategorii, wejdź w Edycję tematu i zaznacz opcję: *Pozwalaj studentom dodawać posty*
+* **dodawać posty do wszystkich tematów czy tylko wybranych**
+
+Jeśli chcesz umożliwić im dodawanie postów do kokretnej kategorii, wejdź w Edycję tego tematu i zaznacz opcję: *Pozwalaj studentom dodawać posty*
 
 <img src="/img/screen-spolecznosc-posty.png" alt=""/>
 
-Wówczas odblokowana im zostanie możliwość dodawania postów do tego konkretnego tematu.
+Wówczas odblokowana im zostanie możliwość dodawania postów tylko do tego konkretnego tematu.
 
 <img src="/img/screen-posty-studenci.png" alt=""/>
 
