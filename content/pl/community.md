@@ -53,9 +53,11 @@ A następnie podaj:
 * **Opis kategorii** - czego będzie dotyczyła, jakie tematy poruszała. Ten opis będzie też widoczny na platformie studentów.
 * **Widoczność** - wybierz, dla jakiej grupy mają wyświetlać się posty dodawane w tym temacie
 
-Możesz wybrać widoczność:
+Możesz wybrać:
 * **publiczny** - posty będą się wyświetlały dla wszystkich osób, które mają założone konto w platformie (nie muszą mieć kupionego żadnego kursu. Wystarczy, że dokonały rejestracji).
 * **ograniczony** - możesz wybrać, dla jakiej konkretnie grupy mają wyświetlać się posty. Czyli np. dla osób, które mają subskrypcję czy dla osób, które kupiły konkretny kurs lub wiele kursów.
+
+Zdecyduj, czy studenci będą mieli możliwość dodawania postów do tego tematu. 
 
 <img src="/img/screen-dodawanie-tematy.png" alt=""/>
 
