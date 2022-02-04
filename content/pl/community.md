@@ -30,9 +30,9 @@ Tematy pozwalają uporządkować informacje w różne kategorie tematyczne. Dzi�
 
 Jeśli np. masz kurs o nazwie *Jak tworzyć reklamy na Facebook'u* i chciałbyś stworzyć grupę dedykowaną tylko studentom, którzy kupili ten kurs to:
 
-- Tworzysz temat o nazwie, np. Reklamy na FB. 
+- tworzysz temat o nazwie, np. Reklamy na FB
 
-- A następnie w opcji Widoczność -> Ograniczony, wybierasz wyłącznie kurs o nazwie *Jak tworzyć reklamy na Facebook'u.* 
+- a następnie w opcji Widoczność -> Ograniczony, wybierasz wyłącznie kurs o nazwie *Jak tworzyć reklamy na Facebook'u* 
 
 **Wówczas automatycznie do postów będą miały dostęp tylko osoby, które kupiły ten konkretny kurs.**
 
