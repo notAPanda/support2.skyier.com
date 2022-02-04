@@ -9,7 +9,7 @@ category: ''
 
 Aby włączyć społeczność należy wejść w **Ustawienia strony -> Funkcje i włączyć opcję Społeczności.** 
 
-Jest to konieczne, aby posty wyświetlały się na platformie studentów. 
+Jest to konieczne, aby posty wyświetlały się na platformie studentów. Jeśli tego nie zrobisz studenci nie będą mieli dostępu do Społeczności.
 
 <img src="/img/screen-wl-spolecznosci.png" alt=""/>
 
@@ -17,18 +17,45 @@ Kilka słów na temat Społeczności znajdziesz tutaj https://www.youtube.com/wa
 
 <br>
 
-## Tworzenie kategorii
+## Jak to działa? ##
+
+W przypadku Społeczności masz możliwość dodawania:
+
+* **tematów**, przypisywanych konkretnym grupom odbiorców
+* **postów**, w obrębie tematów. Post zawiera: tytuł, tekst, zdjęcie i link embed filmiku z YT lub Vimeo.
+
+**Co to są tematy?**
+
+Tematy pozwalają uporządkować informacje w różne kategorie tematyczne. Dzięki temu możesz decydować, jakie tematy powinny się wyświetlać poszczególnym grupom odbiorców. Jak z tego korzystać?
+
+Jeśli np. masz kurs o nazwie *Jak tworzyć reklamy na Facebook'u* i chciałbyś stworzyć grupę dedykowaną tylko studentom, którzy kupili ten kurs to:
+
+- Tworzysz temat o nazwie, np. Reklamy na FB. 
+
+- A następnie w opcji Widoczność -> Ograniczony, wybierasz wyłącznie kurs o nazwie *Jak tworzyć reklamy na Facebook'u.* Wówczas automatycznie do postów będą miały dostęp tylko osoby, które kupiły ten konkretny kurs.
+
+Oczywiście możesz również stworzyć temat, który będzie dedykowany dla większej ilości grup użytkowników. 
+
+Jeśli np. masz dodatkowo jeszcze kurs o nazwie *Jak tworzyć reklamy na YouTube* to możesz podobnie jak w przypadku wcześniej wspomnianego kursu *Jak tworzyć reklamy na Facebook'u* stworzyć temat dedykowany wyłącznie tej grupie odbiorców.
+
+Ale możesz również stworzyć temat, np. Reklamy i poblikować w nim posty, które będą się wyświetlały zarówno osobom, które kupiły kurs *Jak tworzyć reklamy na FB i Jak tworzyć reklamy na YT.*
+
+To Ty decydujesz, kto będzie miał dostęp do danego tematu. 
+
+<br>
+
+## Tworzenie tematu
 
 Aby stworzyć nową kategorię wybierz ikonkę **+** przy nagłówku Tematy.
 
 A następnie podaj:
 * **Tytuł kategorii**
-* **Opis ketegorii** - czego będzie dotyczyła, jakie tematy poruszała
+* **Opis kategorii** - czego będzie dotyczyła, jakie tematy poruszała. Ten opis będzie też widoczny na platformie studentów.
 * **Widoczność** - wybierz, dla jakiej grupy mają wyświetlać się posty dodawane w tym temacie
 
-Możesz wybrać:
+Możesz wybrać widoczność:
 * **publiczny** - posty będą się wyświetlały dla wszystkich osób, które mają założone konto w platformie (nie muszą mieć kupionego żadnego kursu. Wystarczy, że dokonały rejestracji).
-* **ograniczony** - możesz wybrać, dla jakiej konkretnie grupy mają wyświetlać się posty. 
+* **ograniczony** - możesz wybrać, dla jakiej konkretnie grupy mają wyświetlać się posty. Czyli np. dla osób, które mają subskrypcję czy dla osób, które kupiły konkretny kurs lub wiele kursów.
 
 <img src="/img/screen-dodawanie-tematy.png" alt=""/>
 
@@ -36,7 +63,7 @@ Możesz wybrać:
 
 <br>
 
-## Edytowanie kategorii 
+## Edytowanie tematu
 
 Aby edytować temat wybierz temat, który chcesz edytować.
 
@@ -52,7 +79,7 @@ Zapisz
 
 <br>
 
-## Usuwanie kategorii
+## Usuwanie tematu
 
 Aby usunąć temat wybierz temat, który chcesz usunąć.
 
@@ -105,6 +132,21 @@ Wybierz **Usuń**
 
 <img src="/img/screen-posty.png" alt=""/>
 
+<br>
+
+## Dodawanie postów przez studentów
+
+Możesz zdecydować, czy studenci będą mogli dodawać posty w obrębie tematów czy też nie.
+
+Możesz również zdecydować czy będą mogli dodawać posty do wszystkich tematów czy tylko wybranych.
+
+Jeśli chcesz umożliwić im dodawanie postów do kokretnej kategorii, wejdź w Edycję tematu i zaznacz opcję: *Pozwalaj studentom dodawać posty*
+
+<img src="/img/screen-spolecznosc-posty.png" alt=""/>
+
+Wówczas odblokowana im zostanie możliwość dodawania postów do tego konkretnego tematu.
+
+<img src="/img/screen-posty-studenci.png" alt=""/>
 
 
 
