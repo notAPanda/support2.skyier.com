@@ -32,15 +32,18 @@ Jeśli np. masz kurs o nazwie *Jak tworzyć reklamy na Facebook'u* i chciałbyś
 
 - Tworzysz temat o nazwie, np. Reklamy na FB. 
 
-- A następnie w opcji Widoczność -> Ograniczony, wybierasz wyłącznie kurs o nazwie *Jak tworzyć reklamy na Facebook'u.* Wówczas automatycznie do postów będą miały dostęp tylko osoby, które kupiły ten konkretny kurs.
+- A następnie w opcji Widoczność -> Ograniczony, wybierasz wyłącznie kurs o nazwie *Jak tworzyć reklamy na Facebook'u.* 
 
-Oczywiście możesz również stworzyć temat, który będzie dedykowany dla większej ilości grup użytkowników. 
+**Wówczas automatycznie do postów będą miały dostęp tylko osoby, które kupiły ten konkretny kurs.**
 
-Jeśli np. masz dodatkowo jeszcze kurs o nazwie *Jak tworzyć reklamy na YouTube* to możesz podobnie jak w przypadku wcześniej wspomnianego kursu *Jak tworzyć reklamy na Facebook'u* stworzyć temat dedykowany wyłącznie tej grupie odbiorców.
+**Oczywiście możesz również stworzyć temat, który będzie dedykowany dla większej ilości grup użytkowników.** 
 
-Ale możesz również stworzyć temat, np. Reklamy i poblikować w nim posty, które będą się wyświetlały zarówno osobom, które kupiły kurs *Jak tworzyć reklamy na FB i Jak tworzyć reklamy na YT.*
+Jeśli np. masz dodatkowo jeszcze kurs o nazwie *Jak tworzyć reklamy na YouTube* to możesz: 
 
-To Ty decydujesz, kto będzie miał dostęp do danego tematu. 
+- podobnie jak w przypadku wcześniej wspomnianego kursu *Jak tworzyć reklamy na Facebook'u* stworzyć temat dedykowany wyłącznie tej grupie odbiorców.
+
+- możesz również stworzyć temat, np. Reklamy i poblikować w nim posty, które będą się wyświetlały zarówno osobom, które kupiły kurs *Jak tworzyć reklamy na FB i Jak tworzyć reklamy na YT.* Bo pamiętaj, że dostęp do danego tematu może mieć wiele grup. Nie musisz ograniczyć się do jednej konkretnej.
+
 
 <br>
 
