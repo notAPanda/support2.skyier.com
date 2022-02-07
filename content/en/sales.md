@@ -116,6 +116,126 @@ Cena po uwzględnieniu kodu rabatowego (zakładając, że ustawimy kod rabatowy 
 
 ## Ustalenie ceny za pomocą linku
 
+Dzięki ustaleniu ceny za pomocą linku możesz: 
+
+* **zaproponować zakup tego samego kursu w kilku różnych cenach.** Oferując inną ceną dla klientów indywidualnych, a inną dla korporacyjnych. 
+* **poprosić użytkowników o zaproponowanie ceny, jaką chcą zapłacić.** Udostępniając im suwak, który umożliwi im w prosty sposób ustalenie swojej ceny. 
+
+<img src="/img/screen-cena-suwak.png" alt=""/>
+
+ 
+
+Aby ustawić cenę za pomocą linku należy wejść w **Edycję kursu.**
+
+
+<img src="/img/screen-edycja-kursu-2.jpg" alt=""/>
+
+
+Przejść do sekcji **CENA** i zaznaczyć opcję *Ustalanie ceny za pomocą linku.* 
+
+<img src="/img/screen-cena-link.png" alt=""/>
+
+<br>
+
+### Zakup kursu w kilku różnych cenach
+
+Aby umożliwić zakup tego samego kursu np. w 2 różnych cenach, należy:
+
+* **Zdecydować, w jakich cenach chcemy sprzedawać kurs.** Załóżmy, że będą to ceny: 99 zł i 149 zł.
+
+* **Stworzyć linki do strony zakupowej (checkoutu).** W tym wypadku należy pamiętać o dodaniu na końcu url parametru **?price=9900** i **?price=14900**. Czyli parametrów, w których będzie zaszyta cena.
+
+Taki link posiada strukturę: htpps://domena/tytul-kursu/checkout?price=9900
+
+Przykład: 
+
+https://inspiracje.skyier.pl/numer-dwa-strona-do-sprzedazy-kursu-online/checkout?price=9900
+
+https://inspiracje.skyier.pl/numer-dwa-strona-do-sprzedazy-kursu-online/checkout?price=14900
+
+Mając przygotowane 2 takie linki, wystarczy je teraz umieścić w postaci przycisków na swojej stronie sprzedażowej. 
+
+W edytorze tekstu masz do dyspozycji opcję, która umożliwia dodawanie przycisków. Wybierz ikonkę "kwadratu".
+
+<img src="/img/screen-przycisk.png" alt=""/>
+
+Warto tutaj również pamiętać o wpisaniu ceny w polu Cena. Z racji tego, że cena jest przekazywana w linku ktoś może w ramach "testów" spróbować zmienić cenę. A, jeśli w polu Cena podasz cenę np. 99 zł, ustawisz tym samym blokadę cenową. I kurs nie będzie możliwy do kupienia za mniej niż 99 zł. Jest to zabezpieczenie, z którego można skorzystać. 
+
+<img src="/img/screen-cena-link.png" alt=""/>
+
+<br>
+
+### Użytkownik proponuje cenę
+
+Aby umożliwić użytkownikowi zdecydowanie za pomocą suwaka, ile chce zapłacić za kurs, należy:
+
+* **Wejść na Ustawienie strony i w sekcji Head JavaScript wkleić w całości poniższy kod:**
+```html
+<script>
+document.addEventListener('DOMContentLoaded', function (event) {
+    const range = document.querySelector('#price-range')
+    const price_placeholder = document.querySelector('#price-placeholder')
+    const price_link = document.querySelector('#price-link')
+    const currency = 'PLN'    
+    
+    if (range && price_placeholder && price_link) {
+        const base_url = new URL(price_link.getAttribute('href'))
+        const price_initial = base_url.searchParams.get('price')
+      	const p = Math.round(price_initial / 100)
+        range.value = p
+        price_placeholder.textContent = p + ' ' + currency
+
+      	range.addEventListener('input', function(event) {
+            price_placeholder.textContent = event.target.value + ' ' + currency
+            base_url.searchParams.set('price', event.target.value * 100)
+            price_link.setAttribute('href', base_url.toString())
+        })
+    }
+})
+</script>
+```
+
+* **Wejść na stronę sprzedażową danego kursu**
+* **Wybrać komponent HTML i wkleić do niego poniższy kod**
+
+```html
+<div class="row">
+    <div class="col">
+        <div class="text-center">
+          <label for="price" class="form-label"><h3>Zaproponuj swoją cenę:</h3></label>
+            <input type="range" class="form-range" min="99" max="500" step="10" id="price-range">
+        </div>
+        <div class="d-flex">
+            <span>99 PLN</span>
+            <span class="ms-auto">500 PLN</span>
+        </div>
+        <div class="text-center mt-5">
+            <a href="https://inspiracje.skyier.pl/numer-dwa-strona-do-sprzedazy-kursu-online/checkout?price=30000" id="price-link" class="btn btn-danger btn-lg">Chcę zapłacić <span id="price-placeholder"></span></a>
+        </div>
+    </div>
+</div>
+```
+
+W przypadku tego kodu możemy zdefiniować:
+
+* **jaka wartość minimalna pojawi się na suwaku.** Na przykładzie wynosi ona 99 zł. Ale możesz tam wstawić inną wartość. 
+Pamiętaj, aby wartość 99 zł zmienić w dwóch wskazanych miejscach. 
+
+<img src="/img/screen-kod-1.png" alt=""/>
+
+* **jaka wartość maksymalna pojawi się na suwaku.** Na przykładzie wynosi ona 500 zł. Ale możesz tam wstawić inną wartość. 
+Pamiętaj, aby wartość 500 zł zmienić w dwóch wskazanych miejscach.
+
+<img src="/img/screen-kod-2.png" alt=""/>
+
+* **link do checkoutu. Wstaw swój link do strony zakupowej.** W tym wypadku na końcu url w parametrze możesz zaproponować swoją cenę. W przykładzie wynosi ona 300 zł. Ale równi dobrze możesz wstawić tam minimalną, np. 99 zł.
+
+<img src="/img/screen-kod-3.png" alt=""/>
+
+Warto tutaj również pamiętać o wpisaniu ceny w polu Cena. Z racji tego, że cena jest przekazywana w linku ktoś może w ramach "testów" spróbować zmienić cenę. A, jeśli w polu Cena podasz cenę np. 99 zł, ustawisz tym samym blokadę cenową. I kurs nie będzie możliwy do kupienia za mniej niż 99 zł. Jest to zabezpieczenie, z którego można skorzystać. 
+
+<img src="/img/screen-cena-link.png" alt=""/>
+
 <br>
 
 ## Sprzedaż wielu licencji
