@@ -14,7 +14,7 @@ Robimy wszystko, aby problem został rozwiązany w ciągu najbliższych kilku dn
 Jeżeli mają Państwo pilne wideo do wgrania na platformę to są dwa rozwiązania:
 
 - skorzystanie z własnego hostingu wideo: [Bunny CDN](https://bunny.net?ref=ots726inw7), Vimeo, YouTube. Jeśli oczywiście Państwo posiadają. 
-- wysłanie za pomocą: WeTransfer, Dropbox, Google Drive lub innego dysku w chmurze linków z wideo, które możemy wgrać bezpośrednio na platformę. Linki proszę wysłać na adres: hello@skyier.com
+- wysłanie za pomocą: WeTransfer, Dropbox, Google Drive lub innego dysku w chmurze linków z wideo, które możemy wgrać bezpośrednio na platformę. Linki proszę wysłać na adres: hello[malpa]skyier.com
 
 Jeszcze raz bardzo przepraszamy za chwilowe utrudnienia. 
 
