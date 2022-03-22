@@ -176,55 +176,74 @@ Aby umożliwić użytkownikowi zdecydowanie za pomocą suwaka, ile chce zapłaci
 * **Wejść na Ustawienie strony i w sekcji Head JavaScript wkleić w całości poniższy kod:**
 ```html
 
+
 <script>
-document.addEventListener('DOMContentLoaded', function (event) {
-    const range_inputs = document.querySelectorAll('.price-range')
-    const price_placeholders = document.querySelectorAll('.price-placeholder')
-    const price_links = document.querySelectorAll('.price-link')
-    const imagePlaceholders = document.querySelectorAll('.image-placeholder')
-    const currency = 'PLN'
-    
+  document.addEventListener("DOMContentLoaded", function (event) {
+    const range_inputs = document.querySelectorAll(".price-range");
+    const price_placeholders = document.querySelectorAll(".price-placeholder");
+    const price_links = document.querySelectorAll(".price-link");
+    const imagePlaceholders = document.querySelectorAll(".image-placeholder");
+    const currency = "PLN";
+
     if (range_inputs && price_placeholders && price_links && price_links[0]) {
-      	
-        const base_url = new URL(price_links[0].getAttribute('href'))
-        const price_initial = base_url.searchParams.get('price')
-        const p = Math.round(price_initial / 100)
-        
-        range_inputs.forEach(function(r){
-	        r.value = p
-        })
-      
-      	price_placeholders.forEach(function(pp) {
-          pp.textContent = p + ' ' + currency
-        })
-        
-      range_inputs.forEach(function(r) {
-        r.addEventListener('input', function(event) {
-          price_placeholders.forEach(function(pp) {
-            pp.textContent = event.target.value + ' ' + currency
-          })
-          base_url.searchParams.set('price', event.target.value * 100)
-          price_links.forEach(function(pl) {
-            pl.setAttribute('href', base_url.toString())
-          })
-          range_inputs.forEach(function(range_input) {
-            range_input.value = event.target.value
-          })
-          if (event.target.value === '0') {
-            imagePlaceholders.forEach(function(placehoder) {
-              placehoder.classList.remove('d-none')
-            }) 
+      let base_url = "";
+
+      try {
+        base_url = new URL(price_links[0].getAttribute("href"));
+      } catch (e) {
+        base_url = new URL(
+          window.location.origin + window.location.pathname + "/checkout"
+        );
+      }
+
+      let price_initial = base_url.searchParams.get("price");
+
+      if (!price_initial) {
+        price_initial = (range_inputs[0].getAttribute("max") * 100) / 2;
+      }
+
+      const p = Math.round(price_initial / 100);
+      base_url.searchParams.set("price", p * 100);
+
+      range_inputs.forEach(function (r) {
+        r.value = p;
+      });
+
+      price_placeholders.forEach(function (pp) {
+        pp.textContent = p + " " + currency;
+      });
+
+      price_links.forEach(function (pl) {
+        pl.setAttribute("href", base_url.toString());
+      });
+
+      range_inputs.forEach(function (r) {
+        r.addEventListener("input", function (event) {
+          price_placeholders.forEach(function (pp) {
+            pp.textContent = event.target.value + " " + currency;
+          });
+          base_url.searchParams.set("price", event.target.value * 100);
+          price_links.forEach(function (pl) {
+            pl.setAttribute("href", base_url.toString());
+          });
+          range_inputs.forEach(function (range_input) {
+            range_input.value = event.target.value;
+          });
+          if (event.target.value === "0") {
+            imagePlaceholders.forEach(function (placehoder) {
+              placehoder.classList.remove("d-none");
+            });
           } else {
-            imagePlaceholders.forEach(function(placehoder) {
-              placehoder.classList.add('d-none')
-            }) 
+            imagePlaceholders.forEach(function (placehoder) {
+              placehoder.classList.add("d-none");
+            });
           }
-        })
-        
-      })
+        });
+      });
     }
-})
+  });
 </script>
+
 ```
 
 * **Wejść na stronę sprzedażową danego kursu**
