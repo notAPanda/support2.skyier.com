@@ -11,11 +11,11 @@ Aby dodać konsultację wybierz w górnym menu zakładkę **PRODUKTY**.
 
 A następnie wpisz **Tytuł**, zaznaczyć **Konsultacja online** i kliknij **Dodaj produkt**.
 
-<img src="/img/screen-dodanie-konsultacji.jpg" alt=""/>
+<img src="/img/screen-konsultacja-ebook.jpg" alt=""/>
 
 Podaj cenę za konsultację.
 
-Przygotowuj **WIADOMOŚĆ PO ZAKUPIE**. 
+Przygotowuj **Wiadomość po zakupie**. 
 
 Jest to wiadomość, jaką otrzyma użytkownik na maila po dokonaniu zakupu. 
 
