@@ -1,7 +1,7 @@
 ---
 title: Integracje - narzędzia e-mail
 description: ''
-position: 12
+position: 13
 category: ''
 ---
 

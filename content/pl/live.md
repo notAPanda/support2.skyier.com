@@ -67,18 +67,14 @@ W sekcji WYDARZENIE podaj:
 <img src="/img/screen-skyier-live-2.png" alt=""/>
 
 * **video embed url** - tutaj wprowadź ten link, który pobrałeś wcześniej z YouTube. 
-Będzie to link w takiej postaci: https://www.youtube.com/embed/j2tH2dUplk0. Oczywiście w Twoim wypadku te kilka cyferek na końcu będzie innych.
+Będzie to link w takiej postaci: https://www.youtube.com/embed/j2tH2dUplk0. Oczywiście w Twoim wypadku będą inne te cyferki na końcu.
 * **chat embed url** - jeśli chcesz dodatkowo dodać czat dodaj tam link w takiej postaci:
 https://www.youtube.com/live_chat?v=TWOJE-CYFERKI-ZE-WCZESNIEJSZEGO-LINKU&embed_domain=TWOJA-NAZWA-DOMENY
 
 
-W moim przypadku ten link ma postać: https://www.youtube.com/live_chat?v=j2tH2dUplk0&embed_domain=inspiracje.skyier.pl
-
-URL - jest adres url, pod jakim dostępne będzie wydarzenie. Jeśli ustawiasz wydarzenie jako bezpłatne możesz osobom zapisanym na webinar przekazać ten link. I to właśnie pod ten adres muszą wejść w celu wzięcia udziału w live.
-
 Możesz również zrobić wydarzenie, jako:
-* **darmowe, dostępne po zalogowaniu** - wówczas, jeśli użytkownik chce je obejrzeć będzie musiał założyć konto na platformie (jeśli jeszcze nie posiada). 
-* **płatne** - użytkownik który zakupi dostęp będzie mógł wziąć udział w wydarzeniu. Wówczas w celu oglądania będzie musiał tylko zalogować się platformy.
+* **darmowe** - wówczas, jeśli użytkownik chce je obejrzeć będzie musiał założyć konto na platformie (jeśli jeszcze nie posiada). 
+* **płatne** - użytkownik który zakupi dostęp będzie mógł wziąć udział w wydarzeniu. Wówczas w dniu webinaru będzie musiał zalogować się do platformy.
 
 Jeśli natomiast chcesz zostawić dodatkowe informacje osobom zapisanym na webinar wówczas użyj funkcji: **Pokaż dodatkową wiadomość**. Ta wiadomość będzie wyświetlana od momentu, kiedy ją dodasz, do momentu, kiedy ją skasujesz. 
 

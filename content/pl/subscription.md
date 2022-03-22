@@ -1,7 +1,7 @@
 ---
 title: Subskrypcja
 description: ''
-position: 5
+position: 6
 category: ''
 ---
 

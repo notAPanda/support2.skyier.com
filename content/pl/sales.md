@@ -1,7 +1,7 @@
 ---
 title: Sprzedaż
 description: ''
-position: 7
+position: 8
 category: ''
 ---
 
@@ -132,9 +132,9 @@ Przejść do sekcji **CENA** i zaznaczyć opcję *Ustalanie ceny za pomocą link
 
 <img src="/img/screen-cena-link.jpg" alt=""/>
 
-Przy takim ustawieniu nie ma możliwości oferowania produktu za 0 zł. Wartość, jaką wpiszemy w polu Cena (na przykładzie wynosi ona 109) definiuje, jaką najniższą cenę może zapłacić użytkownik. Dzięki temu można się zabezpieczyć przed bardzo niskim wpłatami. 
+Przy takim ustawieniu **nie ma możliwości oferowania produktu za 0 zł.** Wartość, jaką wpiszemy w polu Cena (na przykładzie wynosi ona 109) definiuje, jaką najniższą cenę może zapłacić użytkownik. Dzięki temu można się zabezpieczyć przed bardzo niskim wpłatami. 
 
-W przypadku, kiedy natomiast chcemy pozwolić użytkownikowi nabyć produkt za darmo. Wówczas należy dodatkowo włączyć opcję Darmowy. Przy takich ustawianiach użytkownik może zapłacić 0 zł lub inną dowoloną, wybraną przez siebie cenę. 
+W przypadku, kiedy natomiast chcemy pozwolić użytkownikowi nabyć produkt **za darmo**. **Wówczas należy dodatkowo włączyć opcję Darmowy.** Przy takich ustawianiach użytkownik może zapłacić 0 zł lub inną dowoloną, wybraną przez siebie cenę. 
 
 <img src="/img/screen-cena-darmowy-link.jpg" alt=""/>
 

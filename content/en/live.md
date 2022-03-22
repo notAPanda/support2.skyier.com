@@ -30,13 +30,13 @@ Te zewnętrzne oprogramowania (OBS czy StreamYard) dają Ci możliwość pokazan
 
 <img src="/img/screen-YT-3.png" alt=""/>
 
-**Podaj wymagane informacje na temat wydarzenia online.**
+Podaj wymagane informacje na temat wydarzenia online.
 
 <img src="/img/screen-YT-4.png" alt=""/>
 
-**Przy ustawianiu Widoczności rekomendujemy wybranie opcji: Niepubliczne.** Dzięki czemu tylko osoby, które otrzymają link będą mogły wziąć udział w transmisji.
+Przy ustawianiu Widoczności rekomendujemy wybranie opcji: Niepubliczne. Dzięki czemu tylko osoby, które otrzymają link będą mogły wziąć udział w transmisji.
 
-Po podaniu wszystkich informacji kliknij przycisk **Udostępnij**. 
+Po podaniu wszystkich informacji kliknij przycisk udostępnij. 
 
 <img src="/img/screen-YT-5.png" alt=""/>
 
@@ -44,15 +44,13 @@ I skopiuj link, który pojawi się w oknie.
 
 <img src="/img/screen-YT-6.png" alt=""/>
 
-Otwórz link w nowym oknie. Wybierz ponownie opcję **Udostępnij -> Umieść**.
+Otwórz link w nowym oknie. Wybierz ponownie opcję Udostępnij -> Umieść.
 
 <img src="/img/screen-YT-7.png" alt=""/>
 
-**I z kawałka kodu, który pojawił się po prawej stronie, skopiuj link. I ten właśnie link będzie Ci potrzebny do umieszczenia w Skyier.** 
+I z kawałka kodu, który pojawił się po prawej stronie, skopiuj link. I ten właśnie link będzie Ci potrzebny do umieszczenia w Skyier. 
 
 <img src="/img/screen-YT-8.png" alt=""/>
-
-<br>
 
 ### Ustawienia w Skyier
 
@@ -62,25 +60,21 @@ Po zalogowaniu utwórz produkt typu live. Aby to zrobić przejdź do **PRODUKTY 
 
 Teraz możesz ewentualnie zmienić tytuł live i uzupełnić opis Wydarzenia. Możesz wpisać kilka słów na temat tego, czego będzie ono dotyczyło. Potraktuj to jako miejsce na tzw. lead (zajawkę). A nie opis całego wydarzenia. To możesz zrobić na stronie sprzedażowej.
 
-**W sekcji WYDARZENIE podaj:**
+W sekcji WYDARZENIE podaj:
 
 * **datę rozpoczęcia i godzinę** - jeśli ustawisz te informacje na stronie z wydarzeniem automatycznie pojawi się odliczanie czasu do momentu rozpoczęcia. 
 
 <img src="/img/screen-skyier-live-2.png" alt=""/>
 
 * **video embed url** - tutaj wprowadź ten link, który pobrałeś wcześniej z YouTube. 
-Będzie to link w takiej postaci: https://www.youtube.com/embed/j2tH2dUplk0. Oczywiście w Twoim wypadku te kilka cyferek na końcu będzie innych.
+Będzie to link w takiej postaci: https://www.youtube.com/embed/j2tH2dUplk0. Oczywiście w Twoim wypadku będą inne te cyferki na końcu.
 * **chat embed url** - jeśli chcesz dodatkowo dodać czat dodaj tam link w takiej postaci:
 https://www.youtube.com/live_chat?v=TWOJE-CYFERKI-ZE-WCZESNIEJSZEGO-LINKU&embed_domain=TWOJA-NAZWA-DOMENY
 
 
-W moim przypadku ten link ma postać: https://www.youtube.com/live_chat?v=j2tH2dUplk0&embed_domain=inspiracje.skyier.pl
-
-**URL - jest adres url, pod jakim dostępne będzie wydarzenie.** Jeśli ustawiasz wydarzenie jako bezpłatne możesz osobom zapisanym na webinar przekazać ten link. I to właśnie pod ten adres muszą wejść w celu wzięcia udziału w webinarze.
-
 Możesz również zrobić wydarzenie, jako:
-* **darmowe, dostępne po zalogowaniu** - wówczas, jeśli użytkownik chce je obejrzeć będzie musiał założyć konto na platformie (jeśli jeszcze nie posiada). 
-* **płatne** - użytkownik który zakupi dostęp będzie mógł wziąć udział w wydarzeniu. Wówczas w celu oglądania będzie musiał tylko zalogować się platformy.
+* **darmowe** - wówczas, jeśli użytkownik chce je obejrzeć będzie musiał założyć konto na platformie (jeśli jeszcze nie posiada). 
+* **płatne** - użytkownik który zakupi dostęp będzie mógł wziąć udział w wydarzeniu. Wówczas w dniu webinaru będzie musiał zalogować się do platformy.
 
 Jeśli natomiast chcesz zostawić dodatkowe informacje osobom zapisanym na webinar wówczas użyj funkcji: **Pokaż dodatkową wiadomość**. Ta wiadomość będzie wyświetlana od momentu, kiedy ją dodasz, do momentu, kiedy ją skasujesz. 
 

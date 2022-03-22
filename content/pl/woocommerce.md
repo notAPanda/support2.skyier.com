@@ -1,7 +1,7 @@
 ---
 title: WooCommerce
 description: ''
-position: 11
+position: 12
 category: ''
 ---
 

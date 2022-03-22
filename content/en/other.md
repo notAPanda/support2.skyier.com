@@ -1,7 +1,7 @@
 ---
 title: Inne
 description: ''
-position: 10
+position: 11
 category: ''
 ---
 
@@ -107,9 +107,11 @@ Aby włączyć możliwość wysyłania certyfikatów po zakończeniu kursu onlin
 
 A następnie przejść do sekcji **CERTYFIKATY** i włączyć opcję **Generuj certyfikat po ukończeniu kursu.**
 
-<img src="/img/screen-wlaczenie-certyfikatu.png" alt=""/>
+<img src="/img/screen-wlaczenie-certyfikatu.jpg" alt=""/>
 
 Pokażą się 3 pole na nagłówki, które należy wypełnić swoim tekstem. 
+
+Można również wgrać swoje tło do certyfikatu. Rekomendowany rozmiar: 2105px x 1488px.
 
 Na koniec Zapisz i zobacz projekt certyfikatu. 
 

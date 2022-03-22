@@ -1,7 +1,7 @@
 ---
 title: Strony
 description: ''
-position: 5
+position: 7
 category: ''
 ---
 

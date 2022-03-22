@@ -1,33 +1,34 @@
 ---
-title: Konsultacje
+title: E-booki
 description: ''
-position: 2
+position: 5
 category: ''
 ---
 
-## Tworzenie konsultacji
+## Sprzedaż e-booków
 
-Aby dodać konsultację wybierz w górnym menu zakładkę **PRODUKTY**.
+Aby dodać e-book do sprzedaży wybierz w górnym menu zakładkę **PRODUKTY**.
 
 A następnie wpisz **Tytuł**, zaznaczyć **Konsultacja online** i kliknij **Dodaj produkt**.
 
 <img src="/img/screen-konsultacja-ebook.jpg" alt=""/>
 
-Podaj cenę za konsultację.
+**Podaj cenę za produkt.**
 
 Przygotowuj **Wiadomość po zakupie**. 
 
 Jest to wiadomość, jaką otrzyma użytkownik na maila po dokonaniu zakupu. 
+Może to być po prostu podziękowanie za zakup oraz inne dodatkowe informacje, jakie chciałbyś dodać.
 
-Jeśli posiadasz swój kalendarz online do umawiania spotkań to zamieść do niego link (Google, Calendly, itp.). Aby użytkownik wybrał dogodny dla siebie termin oraz godzinę. Jeśli jednak nie posiadasz kalendarza to możesz w treści wiadomości napisać krótką instrukcję. 
+<img src="/img/screen-wiadomosc-konsultacja-przed.jpg" alt=""/>
 
-<img src="/img/screen-konsultacja-przed.png" alt=""/>
+**Dołącz plik, korzystają z opcji Dodaj plik.**
 
 Kliknij **Zapisz i podejrzyj**. Sprawdź, czy wszystko wygląda poprawnie. 
 
-<img src="/img/screen-konsultacja-po.png" alt=""/>
+<img src="/img/screen-wiadomosc-konsultacja-po.jpg" alt=""/>
 
-Stwórz **Stronę sprzedażową**, z informacjami na temat konsultacji i z przyciskiem do zakupu. 
+Stwórz **Stronę sprzedażową**, z informacjami na temat e-booka i z przyciskiem do zakupu. 
 
 <br/>
 
