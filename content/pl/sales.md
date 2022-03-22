@@ -30,7 +30,7 @@ Kliknij w przycisk **Dodaj**. Pojawi się krótki formularz do wypełnienia.
 Podaj:
 * **tytuł** - ta nazwa nie będzie widoczna dla studentów. Podana nazwa powinna służyć rozpoznaniu, w jakim celu kod został stworzony.
 * **kod** - nazwa, jaką użytkownicy będą musieli wpisać, aby rabat został naliczony. Kod musi posiadać unikalną nazwę. Dana nazwa kodu nie może zostać użyta przy 2 różnych kodach rabatowych. 
-* **data ważności** - ustawiamy do kiedy ważny jest kod. Po upływie ustawionej daty kod będzie nieważny. Jeśli nie ustawimy daty kod będzie ważny w trybie ciągłym.
+* **data ważności** - ustawiamy do kiedy ważny jest kod. Po upływie ustawionej daty kod będzie nieważny. Jeśli nie ustawimy daty kod będzie ważny w trybie ciągłym. Ustawienie daty końcowej na 21 marca oznacza, że kod będzie aktywny jeszcze w dniu 21 marca do godziny 23.59. 
 * **rodzaj** - wybieramy rabat procentowy lub kwotowy. 
 * **wartość** - w zależności od wybranego rodzaju ustalamy wielkość rabatu procentowego (np. 30, co oznacza 30%) lub kwotowego (np. 20, co oznacza 20 zł).
 * **ilość** - ustalamy ilość dostępnych kodów rabatowych. Pozostawienie pola pustego oznacza nieograniczoną ilość. 
@@ -98,7 +98,7 @@ Następnie przejść do sekcji **CENA** i zaznaczyć opcję *Produkt jest w prom
 **Przy ustalaniu ceny promocyjnej należy podać:**
 * cenę standardową
 * cenę promocyjną
-* okres trwania promocji (od-do)
+* okres trwania promocji (od-do). Ustawienie daty końcowej na 21 marca oznacza, że cena promocyjna będzie aktywna jeszcze w dniu 21 marca do godziny 23.59. 
 
 Po zakończeniu promocji cena zmieni się automatycznie na cenę standardową. 
 
@@ -121,9 +121,6 @@ Dzięki ustaleniu ceny za pomocą linku możesz:
 * **zaproponować zakup tego samego kursu w kilku różnych cenach.** Oferując inną ceną dla klientów indywidualnych, a inną dla korporacyjnych. 
 * **poprosić użytkowników o zaproponowanie ceny, jaką chcą zapłacić.** Udostępniając im suwak, który umożliwi im w prosty sposób ustalenie swojej ceny. 
 
-<img src="/img/screen-cena-suwak.png" alt=""/>
-
- 
 
 Aby ustawić cenę za pomocą linku należy wejść w **Edycję kursu.**
 
@@ -133,7 +130,13 @@ Aby ustawić cenę za pomocą linku należy wejść w **Edycję kursu.**
 
 Przejść do sekcji **CENA** i zaznaczyć opcję *Ustalanie ceny za pomocą linku.* 
 
-<img src="/img/screen-cena-link.png" alt=""/>
+<img src="/img/screen-cena-link.jpg" alt=""/>
+
+Przy takim ustawieniu nie ma możliwości oferowania produktu za 0 zł. Wartość, jaką wpiszemy w polu Cena (na przykładzie wynosi ona 109) definiuje, jaką najniższą cenę może zapłacić użytkownik. Dzięki temu można się zabezpieczyć przed bardzo niskim wpłatami. 
+
+W przypadku, kiedy natomiast chcemy pozwolić użytkownikowi nabyć produkt za darmo. Wówczas należy dodatkowo włączyć opcję Darmowy. Przy takich ustawianiach użytkownik może zapłacić 0 zł lub inną dowoloną, wybraną przez siebie cenę. 
+
+<img src="/img/screen-cena-darmowy-link.jpg" alt=""/>
 
 <br>
 
@@ -159,7 +162,6 @@ W edytorze tekstu masz do dyspozycji opcję, która umożliwia dodawanie przycis
 
 <img src="/img/screen-przycisk.png" alt=""/>
 
-Warto tutaj również pamiętać o wpisaniu ceny w polu Cena. Z racji tego, że cena jest przekazywana w linku ktoś może w ramach "testów" spróbować zmienić cenę. A, jeśli w polu Cena podasz cenę np. 99 zł, ustawisz tym samym blokadę cenową. I kurs nie będzie możliwy do kupienia za mniej niż 99 zł. Jest to zabezpieczenie, z którego można skorzystać. 
 
 <img src="/img/screen-cena-link.png" alt=""/>
 
@@ -169,27 +171,57 @@ Warto tutaj również pamiętać o wpisaniu ceny w polu Cena. Z racji tego, że 
 
 Aby umożliwić użytkownikowi zdecydowanie za pomocą suwaka, ile chce zapłacić za kurs, należy:
 
+<img src="/img/screen-cena-suwak.png" alt=""/>
+
 * **Wejść na Ustawienie strony i w sekcji Head JavaScript wkleić w całości poniższy kod:**
 ```html
+
 <script>
 document.addEventListener('DOMContentLoaded', function (event) {
-    const range = document.querySelector('#price-range')
-    const price_placeholder = document.querySelector('#price-placeholder')
-    const price_link = document.querySelector('#price-link')
-    const currency = 'PLN'    
+    const range_inputs = document.querySelectorAll('.price-range')
+    const price_placeholders = document.querySelectorAll('.price-placeholder')
+    const price_links = document.querySelectorAll('.price-link')
+    const imagePlaceholders = document.querySelectorAll('.image-placeholder')
+    const currency = 'PLN'
     
-    if (range && price_placeholder && price_link) {
-        const base_url = new URL(price_link.getAttribute('href'))
+    if (range_inputs && price_placeholders && price_links && price_links[0]) {
+      	
+        const base_url = new URL(price_links[0].getAttribute('href'))
         const price_initial = base_url.searchParams.get('price')
-      	const p = Math.round(price_initial / 100)
-        range.value = p
-        price_placeholder.textContent = p + ' ' + currency
-
-      	range.addEventListener('input', function(event) {
-            price_placeholder.textContent = event.target.value + ' ' + currency
-            base_url.searchParams.set('price', event.target.value * 100)
-            price_link.setAttribute('href', base_url.toString())
+        const p = Math.round(price_initial / 100)
+        
+        range_inputs.forEach(function(r){
+	        r.value = p
         })
+      
+      	price_placeholders.forEach(function(pp) {
+          pp.textContent = p + ' ' + currency
+        })
+        
+      range_inputs.forEach(function(r) {
+        r.addEventListener('input', function(event) {
+          price_placeholders.forEach(function(pp) {
+            pp.textContent = event.target.value + ' ' + currency
+          })
+          base_url.searchParams.set('price', event.target.value * 100)
+          price_links.forEach(function(pl) {
+            pl.setAttribute('href', base_url.toString())
+          })
+          range_inputs.forEach(function(range_input) {
+            range_input.value = event.target.value
+          })
+          if (event.target.value === '0') {
+            imagePlaceholders.forEach(function(placehoder) {
+              placehoder.classList.remove('d-none')
+            }) 
+          } else {
+            imagePlaceholders.forEach(function(placehoder) {
+              placehoder.classList.add('d-none')
+            }) 
+          }
+        })
+        
+      })
     }
 })
 </script>
@@ -203,17 +235,21 @@ document.addEventListener('DOMContentLoaded', function (event) {
     <div class="col">
         <div class="text-center">
           <label for="price" class="form-label"><h3>Zaproponuj swoją cenę:</h3></label>
-            <input type="range" class="form-range" min="99" max="500" step="10" id="price-range">
+            <input type="range" class="form-range price-range" min="99" max="500" step="10" id="price-range">
         </div>
         <div class="d-flex">
             <span>99 PLN</span>
             <span class="ms-auto">500 PLN</span>
         </div>
         <div class="text-center mt-5">
-            <a href="https://inspiracje.skyier.pl/numer-dwa-strona-do-sprzedazy-kursu-online/checkout?price=30000" id="price-link" class="btn btn-danger btn-lg">Chcę zapłacić <span id="price-placeholder"></span></a>
+            <a href="/tytul-kursu/checkout?price=30000" id="price-link" class="btn btn-danger btn-lg price-link">Chcę zapłacić <span class="price-placeholder" id="price-placeholder"></span></a>
+        </div>
+        <div class="image-placeholder d-none text-center">
+          <img data-src="" alt="" class="lazyload mt-4">
         </div>
     </div>
 </div>
+
 ```
 
 W przypadku tego kodu możemy zdefiniować:
@@ -228,13 +264,19 @@ Pamiętaj, aby wartość 500 zł zmienić w dwóch wskazanych miejscach.
 
 <img src="/img/screen-kod-2.png" alt=""/>
 
-* **link do checkoutu. Wstaw swój link do strony zakupowej.** W tym wypadku na końcu url w parametrze możesz zaproponować swoją cenę. W przykładzie wynosi ona 300 zł. Ale równi dobrze możesz wstawić tam minimalną, np. 99 zł.
+* **co ile będzie przeskakiwała cena na suwaku.** Na przykładzie podane jest 10. Oznacza to, że co 10 zł będzie zmieniała się cena na suwaku. Możesz tam również wstawić 1, 5, a nawet 20. W zależności od tego, co ile cena powinna się zmieniać.
+
+* **link do checkoutu. Wstaw swój link do strony zakupowej.** W tym wypadku na końcu url w parametrze możesz zaproponować swoją cenę. W przykładzie wynosi ona 300 zł. Ale równie dobrze możesz wstawić tam minimalną, np. 99 zł.
 
 <img src="/img/screen-kod-3.png" alt=""/>
 
-Warto tutaj również pamiętać o wpisaniu ceny w polu Cena. Z racji tego, że cena jest przekazywana w linku ktoś może w ramach "testów" spróbować zmienić cenę. A, jeśli w polu Cena podasz cenę np. 99 zł, ustawisz tym samym blokadę cenową. I kurs nie będzie możliwy do kupienia za mniej niż 99 zł. Jest to zabezpieczenie, z którego można skorzystać. 
+* **link do obrazka.** Kiedy dasz możliwość ustawienia ceny 0 zł, czyli nabycia produktu za darmo. To w momencie, gdy ktoś rzeczywiście ustawi na suwaku cenę 0, może pokazać się na stronie gif lub zdjęcie. Na przykład wskazujące na to, że może jednak warto zapłacić coś więcej. 
 
-<img src="/img/screen-cena-link.png" alt=""/>
+<img src="/img/screen-link-obraz.jpg" alt=""/>
+
+Na stronie to wygląda tak:
+
+<img src="/img/screen-link-gif.jpg" alt=""/>
 
 
 <br>
@@ -324,3 +366,5 @@ Jeśli usuniemy ustawione warianty cenowe lub wyłączymy opcję *Warianty cenow
 Jeśli kurs będzie sprzedawany w pakiecie to studenci będą mieli dostęp do wszystkich lekcji. Tutaj podział na warinaty cenowe nie obowiązuje.
 
 Jeśli wyłączymy opcję *Warianty cenowe* i zaczniemy sprzedawać kurs tylko w jednej cenie, student przy zakupie będzie miał dostęp do wszystkich lekcji. Wówczas podział na warianty cenowe przestaje obowiązywać. 
+
+

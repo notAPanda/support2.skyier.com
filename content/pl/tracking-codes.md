@@ -17,5 +17,6 @@ Kod pixel FB i Google Analytics rekomendujemy dodanie w sekcji **head**.
 
 Jeśli dodasz Pixel FB wiedz, że Skyier automatycznie wysyła, takie eventy jak:
 
-* **purchase** - po zakupie
-* **initiate checkout** - przed zakupem
+* **purchase (zakup)**. W momencie, kiedy ktoś dokona zakupu. Dzięki temu od razu jest podgląd, która reklama generuje najwięcej konwersji (rzeczywistych sprzedaży). 
+
+* **initiateCheckout (zainicjowanie przejścia do koszyka)**. W momencie, kiedy ktoś na stronie dokonywania zakupu klinie w przycisk Kup teraz, ale z jakiś przyczyn nie dokończy zakupu. Dzięki temu jest podgląd, ilu użytkowników rozpoczęło, ale nie zakończyło zakupu. 
