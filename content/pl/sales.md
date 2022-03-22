@@ -176,7 +176,6 @@ Aby umożliwić użytkownikowi zdecydowanie za pomocą suwaka, ile chce zapłaci
 * **Wejść na Ustawienie strony i w sekcji Head JavaScript wkleić w całości poniższy kod:**
 ```html
 
-
 <script>
   document.addEventListener("DOMContentLoaded", function (event) {
     const range_inputs = document.querySelectorAll(".price-range");
