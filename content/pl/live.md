@@ -76,6 +76,8 @@ Możesz również zrobić wydarzenie, jako:
 * **darmowe** - wówczas, jeśli użytkownik chce je obejrzeć będzie musiał założyć konto na platformie (jeśli jeszcze nie posiada). 
 * **płatne** - użytkownik który zakupi dostęp będzie mógł wziąć udział w wydarzeniu. Wówczas w dniu webinaru będzie musiał zalogować się do platformy.
 
+Więcej na temat cen, znajdziesz [tutaj] (https://support.skyier.com/sales)
+
 Jeśli natomiast chcesz zostawić dodatkowe informacje osobom zapisanym na webinar wówczas użyj funkcji: **Pokaż dodatkową wiadomość**. Ta wiadomość będzie wyświetlana od momentu, kiedy ją dodasz, do momentu, kiedy ją skasujesz. 
 
 <img src="/img/screen-skyier-live-3.png" alt=""/>

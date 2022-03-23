@@ -15,18 +15,20 @@ A następnie wpisz **Tytuł**, zaznaczyć **Konsultacja online** i kliknij **Dod
 
 **Podaj cenę za produkt.**
 
+Więcej na temat cen, znajdziesz [tutaj] (https://support.skyier.com/sales)
+
 Przygotowuj **Wiadomość po zakupie**. 
 
 Jest to wiadomość, jaką otrzyma użytkownik na maila po dokonaniu zakupu. 
 Może to być po prostu podziękowanie za zakup oraz inne dodatkowe informacje, jakie chciałbyś dodać.
 
-<img src="/img/screen-wiadomosc-konsultacja-przed.jpg" alt=""/>
+<img src="/img/screen-wiadomosc-konsultacja-po.jpg" alt=""/>
 
 **Dołącz plik, korzystają z opcji Dodaj plik.**
 
 Kliknij **Zapisz i podejrzyj**. Sprawdź, czy wszystko wygląda poprawnie. 
 
-<img src="/img/screen-wiadomosc-konsultacja-po.jpg" alt=""/>
+<img src="/img/screen-wiadomosc-konsultacja-przed.jpg" alt=""/>
 
 Stwórz **Stronę sprzedażową**, z informacjami na temat e-booka i z przyciskiem do zakupu. 
 
@@ -49,7 +51,7 @@ Podstawowe znaczniki:
 * [Zdanie, które chcemy podlinkować](https://www.google.com). Aby wstawić link do zdania należy w nawiasach [] wstawić zdanie, które chcemy podlinkować, a obok w nawiasach () wstawić link do strony, do której chcemy odesłać użytkownika.
 
 Wiadomość napisana w edytorze.
-<img src="/img/screen-konsultacja-przed.png" alt=""/>
+<img src="/img/screen-wiadomosc-konsultacja-przed.jpg" alt=""/>
 
 Wiadomość widoczna dla użytkownika.
-<img src="/img/screen-konsultacja-po.png" alt=""/>
+<img src="/img/screen-wiadomosc-konsultacja-po.jpg" alt=""/>

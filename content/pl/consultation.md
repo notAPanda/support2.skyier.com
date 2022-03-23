@@ -15,6 +15,8 @@ A następnie wpisz **Tytuł**, zaznaczyć **Konsultacja online** i kliknij **Dod
 
 Podaj cenę za konsultację.
 
+Więcej na temat cen, znajdziesz [tutaj] (https://support.skyier.com/sales)
+
 Przygotowuj **Wiadomość po zakupie**. 
 
 Jest to wiadomość, jaką otrzyma użytkownik na maila po dokonaniu zakupu. 

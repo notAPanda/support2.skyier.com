@@ -217,4 +217,8 @@ I podać, po **ilu dniach od zakupu** ma być dostępna sekcja z lekcjami.
 
 Jeśli ustawisz opóźnienie drugiej sekcji o 2 dni, a opóźnienie trzeciej seksji o 4 dni. To w momencie, kiedy użytkownik kupi kurs 23 czerwca to od razu po zakupie będzie miał dostęp do pierwszej sekcji, 25 czerwca do drugiej, a 27 czerwca do trzeciej. 
 
+## Cena
+
+Więcej na temat cen, znajdziesz [tutaj] (https://support.skyier.com/sales)
+
  
