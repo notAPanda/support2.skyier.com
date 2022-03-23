@@ -219,6 +219,6 @@ Jeśli ustawisz opóźnienie drugiej sekcji o 2 dni, a opóźnienie trzeciej sek
 
 ## Cena
 
-Więcej na temat cen, znajdziesz [tutaj] (https://support.skyier.com/sales)
+Więcej na temat cen, znajdziesz [tutaj](https://support.skyier.com/sales).
 
  

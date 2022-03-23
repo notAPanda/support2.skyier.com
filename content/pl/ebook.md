@@ -15,7 +15,7 @@ A następnie wpisz **Tytuł**, zaznaczyć **Konsultacja online** i kliknij **Dod
 
 **Podaj cenę za produkt.**
 
-Więcej na temat cen, znajdziesz [tutaj] (https://support.skyier.com/sales)
+Więcej na temat cen, znajdziesz [tutaj](https://support.skyier.com/sales).
 
 Przygotowuj **Wiadomość po zakupie**. 
 
