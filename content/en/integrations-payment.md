@@ -99,7 +99,7 @@ Podaj nazwę App, aby wiedzieć, w jakim celu została utworzona -> Create App
 
 **Klucz API i Hasło API znajdziesz:** Menu -> Integracja -> API.
 
-Kliknij prycisk DODAJ NOWY KLUCZ 
+Kliknij przycisk DODAJ NOWY KLUCZ 
 
 <img src="/img/screen-tpay-3.png" alt=""/>
 
