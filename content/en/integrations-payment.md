@@ -85,7 +85,7 @@ Podaj nazwę App, aby wiedzieć, w jakim celu została utworzona -> Create App
 
 ## TPay
 
-#### Jeśli prowadzisz sprzedaż wyłącznie pojedynczych produktów (kursów online, pakietów, konsultacji) to wypełnij pola: ID Sprzedawcy, Kod bezpieczeństwa, api_key i api_password.
+#### Jeśli prowadzisz sprzedaż wyłącznie pojedynczych produktów (kursów online, pakietów, konsultacji) to wypełnij pola: ID Sprzedawcy, Kod bezpieczeństwa, Klucz API i Hasło API.
 
 **Gdzie znaleźć ID Sprzedawcy i Kod bezpieczeństwa?**
 
@@ -93,11 +93,19 @@ Podaj nazwę App, aby wiedzieć, w jakim celu została utworzona -> Create App
 
 <img src="/img/screen-tpay-1.jpg" alt=""/>
 
-**Kod bezpieczeństwa znajdziesz:** Menu -> Ustawienia -> Powiadomienia -> Bezpieczeństwo.
+**Kod bezpieczeństwa znajdziesz:** Menu -> Ustawienia -> Powiadomienia -> Zabezpieczenia.
 
-<img src="/img/screen-tpay-2.jpg" alt=""/>
+<img src="/img/screen-tpay-2.png" alt=""/>
 
-**Api_key i api_password znajdziesz:** Menu -> Ustawienia -> api.
+**Klucz API i Hasło API znajdziesz:** Menu -> Integracja -> API.
+
+Kliknij prycisk DODAJ NOWY KLUCZ 
+
+<img src="/img/screen-tpay-3.png" alt=""/>
+
+A następnie utwórz hasło, aktywuj go i wybierz rodzaj uprawnienia. Po dodaniu klucza automatycznie zostanie wygenerowany klucz, który trzeba podać w integracji w Skyier.
+
+<img src="/img/screen-tpay-4.png" alt=""/>
 
 
 #### Jeśli prowadzisz sprzedaż subskrypcyjną kursów to dodatkowo wypełnij pola: Klucz API, Kod weryfikacyjny, Hasło API, Klucz publiczny RSA, Algorytm podpisu.
@@ -106,19 +114,16 @@ Podaj nazwę App, aby wiedzieć, w jakim celu została utworzona -> Create App
 
 Wejdź w Menu -> Płatności kartami -> API
 
-<img src="/img/screen-tpay-3.jpg" alt=""/>
+<img src="/img/screen-tpay-karta.png" alt=""/>
 
 Przy pierwszej konfiguracji tej strony trzeba wygenerować Kod weryfikacyjny i ustawić Hasło API.
 
 W przypadku:
 
-**- Algorytmu podpisu - ustaw sha1**
-
 **- Adresu url powiadomień - podaj: https://nazwadomeny.pl/api/tpay/subscription/notify**
 
 **- Adres url powrotny (powodzenia i błąd) - podaj nazwę strony, czyli: https://nazwadomeny.pl**
 
-Jeśli płatności subskrypcyjne przechodzą poprawnie należy napisać do TPay prośbę o aktywacji konta produkcyjnego. Bo, w innym przypadku będzie działało konto testowe. 
 
 <br>
 
