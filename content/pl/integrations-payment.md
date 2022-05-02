@@ -145,7 +145,7 @@ Aby ustawić Webhook Singing Secret należy najpierw ustawić Endpoint. Aby to z
 
 Następnie w polu
 
-**- Url endpoint** podaj adres url, który ma taką strukturę: nazwadomeny.pl/api/stripe/notifications**
+**- Url endpoint** podaj adres url, który ma taką strukturę: nazwadomeny.pl/api/stripe/notifications
 
 **- w Events to send wybierz:** receive all events
 
