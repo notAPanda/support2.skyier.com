@@ -167,7 +167,7 @@ W edytorze tekstu masz do dyspozycji opcję, która umożliwia dodawanie przycis
 
 <br>
 
-### Użytkownik proponuje cenę
+### Zapłać, ile chcesz. Ustalanie ceny poprzez link
 
 Aby umożliwić użytkownikowi zdecydowanie za pomocą suwaka, ile chce zapłacić za kurs, należy:
 
@@ -385,5 +385,47 @@ Jeśli usuniemy ustawione warianty cenowe lub wyłączymy opcję *Warianty cenow
 Jeśli kurs będzie sprzedawany w pakiecie to studenci będą mieli dostęp do wszystkich lekcji. Tutaj podział na warinaty cenowe nie obowiązuje.
 
 Jeśli wyłączymy opcję *Warianty cenowe* i zaczniemy sprzedawać kurs tylko w jednej cenie, student przy zakupie będzie miał dostęp do wszystkich lekcji. Wówczas podział na warianty cenowe przestaje obowiązywać. 
+
+<br/>
+
+### Cross-selling. Dosprzedaż
+
+Jeśli chcesz na stronie zakupowej umożliwić użytkownikowi zakup dodatkowego produktu to skorzystaj z opcji Dosprzedaży - Cross-selling'u. Użytkownik na etapie dokonywania zakupu będzie mógł zdecydować czy i który produkt chce jeszcze dokupić. 
+
+Jak to działa?
+
+Aby włączyć Dosprzedaż należy wejść w **Edycję kursu.**
+
+<img src="/img/screen-edycja-kursu-2.jpg" alt=""/>
+
+A następnie przejść do sekcji Dosprzedaż -> wybrać Ustawienia
+
+<img src="/img/screen-crosss-1.png" alt=""/>
+
+I kliknąć przycisk Dodaj. Pojawi się formularz, który należy uzupełnić.
+
+<img src="/img/screen-cross-2.png" alt=""/>
+
+- **wybierz kurs** - należy wybrać kurs online, który chcemy jeszcze zaproponować w dosprzedaży
+- **cena** - należy podać cenę za zakup tego kursu online
+- **pokaż oryginalną cenę z przekreśleniem** - jeśli oferujemy zakup tego kursu online w niższej cenie (czyli w innej cenie niż jest on sprzedawany standardowo) można włączyć tą opcję. Dzięki temu użytkownik będzie widział, że obowiązuje dla niego cena niższa. 
+- **treść zgody** - użytkownik musi zaznaczyć na stronie zakupowej checbox, wyrażając zgodę na dodanie produktu do koszyka. W tym miejscu można zaproponować swój tekst, zachęcając go do skorzystania z oferty. Max. długośc tekstu wynosi 255 znaków. Jeśli pole pozostanie puste, pojawi się tekst: Dodaj do zamówienia.
+- **nagłówek** - jest to miejsce, które można wykorzystać do krótkiego opisu produktu wraz z tytułem. Maksymalna długość tekstu wynosi 225 znaków. Jeśli pole pozostanie puste, pojawi się tytuł wybranego kursu online.
+
+Zapisujemy zmiany. Na liście pojawił się stworzony produkt.
+
+Ostatnim krokiem jest po prostu wybranie tego produktu. Klikając i zaznaczając go na niebiesko.
+
+<img src="/img/screen-cross-3.png" alt=""/>
+
+Tak wygląda strona zakupowa po dodaniu do sprzedaży jeszcze jednego kursu online
+
+<img src="/img/screen-cross-4.png" alt=""/>
+
+**Ważne**
+
+1. Cross-selling działa wyłącznie na produktach, typu Kurs online. Nie można w dosprzedaży proponować zakupu Konsultacji, Pakietów czy Wydarzeń online.
+2. Można zaproponować dokupienie nie tylko jednego kursu online, ale również dwóch, trzech lub więcej.
+3. Dosprzedaż obowiązuje tylko przy kursach online, które są sprzedawane w modelu Cena standardowa lub W promocji. Czyli, jeśli mamy kurs online o nazwie Moduł 1 i chcemy do niego zaproponować możliwość dokupienia jeszcze jednego produktu. To ten kurs Moduł 1 musi być sprzedwany właśnie w modelu: Cena standardowa lub W promocji. Nie może być sprzedwawany w modelu: Cena ustalana linkiem, Warinaty cenowe, Wiele licencji, Darmowy.
 
 
