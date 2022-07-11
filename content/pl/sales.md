@@ -387,21 +387,21 @@ Jeśli wyłączymy opcję *Warianty cenowe* i zaczniemy sprzedawać kurs tylko w
 
 <br>
 
-### Cross-selling. Dosprzedaż
+## Cross-selling. Dosprzedaz
 
 Jeśli chcesz na stronie zakupowej umożliwić użytkownikowi zakup dodatkowego produktu to skorzystaj z opcji Dosprzedaży - Cross-selling'u. Użytkownik na etapie dokonywania zakupu będzie mógł zdecydować czy i który produkt chce jeszcze dokupić. 
 
-Jak to działa?
+**Jak to działa?**
 
 Aby włączyć Dosprzedaż należy wejść w **Edycję kursu.**
 
 <img src="/img/screen-edycja-kursu-2.jpg" alt=""/>
 
-A następnie przejść do sekcji Dosprzedaż -> wybrać Ustawienia
+A następnie przejść do sekcji **Dosprzedaż -> wybrać Ustawienia**
 
-<img src="/img/screen-crosss-1.png" alt=""/>
+<img src="/img/screen-cross-1.png" alt=""/>
 
-I kliknąć przycisk Dodaj. Pojawi się formularz, który należy uzupełnić.
+I kliknąć przycisk **Dodaj**. Pojawi się formularz, który należy uzupełnić.
 
 <img src="/img/screen-cross-2.png" alt=""/>
 
@@ -413,7 +413,7 @@ I kliknąć przycisk Dodaj. Pojawi się formularz, który należy uzupełnić.
 
 Zapisujemy zmiany. Na liście pojawił się stworzony produkt.
 
-Ostatnim krokiem jest po prostu wybranie tego produktu. Klikając i zaznaczając go na niebiesko.
+Ostatnim krokiem jest po prostu wybranie tego produktu. **Klikając i zaznaczając go na niebiesko.**
 
 <img src="/img/screen-cross-3.png" alt=""/>
 
@@ -424,5 +424,7 @@ Tak wygląda strona zakupowa po dodaniu do sprzedaży jeszcze jednego kursu onli
 **Ważne**
 
 1. Cross-selling działa wyłącznie na produktach, typu Kurs online. Nie można w dosprzedaży proponować zakupu Konsultacji, Pakietów czy Wydarzeń online.
+
 2. Można zaproponować dokupienie nie tylko jednego kursu online, ale również dwóch, trzech lub więcej.
+
 3. Dosprzedaż obowiązuje tylko przy kursach online, które są sprzedawane w modelu Cena standardowa lub W promocji. Czyli, jeśli mamy kurs online o nazwie Moduł 1 i chcemy do niego zaproponować możliwość dokupienia jeszcze jednego produktu. To ten kurs Moduł 1 musi być sprzedwany właśnie w modelu: Cena standardowa lub W promocji. Nie może być sprzedwawany w modelu: Cena ustalana linkiem, Warinaty cenowe, Wiele licencji, Darmowy.
