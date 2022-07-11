@@ -430,4 +430,60 @@ Tak wygląda strona zakupowa po dodaniu do sprzedaży jeszcze jednego kursu onli
 
 3. Dosprzedaż obowiązuje tylko przy kursach online, które są sprzedawane w modelu Cena standardowa lub W promocji. Czyli, jeśli mamy kurs online o nazwie Moduł 1 i chcemy do niego zaproponować możliwość dokupienia jeszcze jednego produktu. To ten kurs Moduł 1 musi być sprzedwany właśnie w modelu: Cena standardowa lub W promocji. Nie może być sprzedwawany w modelu: Cena ustalana linkiem, Warinaty cenowe, Wiele licencji, Darmowy.
 
+<br>
+
+## Odliczanie czasu
+
+Funkcja odliczania czasu daje możliwość stworzenia oferty z ograniczoną dostępnością zakupową. 
+
+**Jak to działa?**
+
+Użytkownik wchodzi na stronę sprzedażową, na której umieszczony jest licznik wraz z opisem oferty i możliwością zakupu. Po upływie wskazanego na liczniku czasu oferta przestaje być dostępna. Ze strony automatycznie znika przycisk umożliwiający dokonanie zakupu. A co za tym idzie, użytkownik nie ma możliwości przejścia do strony zakupowej i sfinalizowania transkacji. 
+
+Aby skorzystać z tego mechanizmu na swojej stronie, należy:
+
+**Przejść do strony sprzedażowej, na której powinien zostać umieszczony mechanizm odliczania czasu**.
+
+Dodać komponent **typu HTML**.
+
+<img src="/img/screen-odliczanie.png" alt=""/>
+
+A nastepnie **skopiować i wkleić poniższy kod**.
+
+```html
+<h2 class="text-center mb-5 fw-bold text-white">🔥 Oferta tylko dla Ciebie -50% <span style="color:#f1c50e;"></span></h2>
+<countdown-time-v2 
+seconds="1500" 
+test-mode="false" 
+after-countdown-text="Promocja zakończona"
+custom-classes="bg-primary text-white"
+>
+  <div class="row d-flex align-items-center">
+    <div class="">
+    
+    <div class="text-center"><a href="#" class="btn btn-warning btn-lg fw-bolder py-3 px-5">KUP TERAZ</a></div>
+    </div>
+</div>
+</countdown-time-v2>
+```
+
+Na stronie zakupowej sekcja z odliczaniem czasu będzie wyglądała tak:
+
+<img src="/img/screen-odliczanie-2.png" alt=""/>
+
+Po zakończeniu odliczania sekcja będzie wyglądała tak:
+
+<img src="/img/screen-odliczanie-3.png" alt=""/>
+
+Oczywiście istnieje możliwość modyfikacji kolorystycznej tego komponentu. Jeśli potrzebujesz w tym pomocy, napisz do nas. Chętnie pomożemy. 
+
+**Co warto zdefiniować przy tym komponencie:**
+
+- **nagłówek** - tutaj należy wstawić swój nagłówek. Zaproponowany tekst to: Oferta tylko dla Ciebie -50%.
+- **seconds** - tutaj należy wstawić długość odliczania czasu, w sekundach. Przykład: jeśli chcesz, aby odliczało od 10 minut, wstaw w tym miejscu 600. 
+- **after-countdown-text** - tutaj należy wstawić tekst, jaki ma się pojawić po zakończeniu odliczania. Zaproponowany tekst to: Promocja zakończona. 
+- **CTA na przycisku** - tutaj można wstawić swoje CTA. Zaproponowane CTA to: KUP TERAZ.
+
+<img src="/img/screen-odliczanie-4.png" alt=""/>
+
 
