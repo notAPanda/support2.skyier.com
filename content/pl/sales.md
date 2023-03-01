@@ -515,13 +515,13 @@ W sekcji **Wiadomość po nieudanym zakupie** wpisujemy treść wiadomości, jak
 - **treść** - wiadomość zachęcająca do powrotu i dokończenia zakupu
 - **wezwanie do działania** - czyli CTA, jakie pojawi się na przycisku. Po kliknięciu w przycisk użytkownik automatycznie zostanie przekierowany do strony zakupowej w celu dokończenia rozpoczętego zakupu danego produktu.
 
-Wiadomość ta wygląda tak:
+**Wiadomość ta wygląda tak:**
 
 <img src="/img/screen-porzucony-koszyk-1.png" alt=""/>
 
-Istnieje możliwość wysłania wiadomości w formie zwykłego tekstu (bez nagłówku, kolorowego przycisku, itp). 
+**Istnieje możliwość wysłania wiadomości w formie zwykłego tekstu (bez nagłówku, kolorowego przycisku, itp).**
 
-Wiadomość ta wygląda tak:
+**Wiadomość ta wygląda tak:**
 
 <img src="/img/screen-porzucony-koszyk-2.png" alt=""/>
 
