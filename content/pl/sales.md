@@ -489,54 +489,46 @@ Oczywiście istnieje możliwość modyfikacji kolorystycznej tego komponentu. Je
 
 ## Odzyskiwanie sprzedaży
 
-Funkcja odliczania czasu daje możliwość stworzenia oferty z ograniczoną dostępnością zakupową. 
+Funkcja ta daje możliwość wysłania wiadomości po niedokończonym zakupie w celu odzyskania koszyka. Aby skorzystać z tej funkcji należy wejść w **SPRZEDAŻ -> Odzyskiwanie sprzedaży**.
 
 **Jak to działa?**
 
-Użytkownik wchodzi na stronę sprzedażową, na której umieszczony jest licznik wraz z opisem oferty i możliwością zakupu. Po upływie wskazanego na liczniku czasu oferta przestaje być dostępna. Ze strony automatycznie znika przycisk umożliwiający dokonanie zakupu. A co za tym idzie, użytkownik nie ma możliwości przejścia do strony zakupowej i sfinalizowania transkacji. 
+Użytkownik wchodzi na stronę zakupową w celu dokonania zakupu. Po wypełnieniu formularza ze swoimi danymi, a następnie kliknięciu przycisku Kupuję i płacę wychodzi ze strony. Proces zakupowy został rozpoczęty, ale nie dokończony. **Mówimy tutaj o tzw. porzuconym koszyku.** Jeśli chcemy użytkownika zachęcić do powrotu i dokończenia zakupu możemy wysłać jemu automatyczną wiadomość. 
 
-Aby skorzystać z tego mechanizmu na swojej stronie, należy:
+**Aby włączyć odzyskiwanie sprzedaży** należy kliknąć toggle (przełącznik), który jest przy przycisku Zapisz.
 
-**Przejść do strony sprzedażowej, na której powinien zostać umieszczony mechanizm odliczania czasu**.
+<img src="/img/screen-porzucony koszyk.png" alt=""/>
 
-Dodać komponent **typu HTML**.
+A następnie w **Ustawieniach wybrać czas, po jakim ma zostać wysłana wiadomość do użytkownika, który nie dokończył zakupu**. Tutaj mamy do wyboru, po: 
 
-<img src="/img/screen-odliczanie.png" alt=""/>
+- 1 godzinie
+- 3 godzinach
+- 6 godzinach
+- 10 godzinach
+- 24 godzinach 
 
-A nastepnie **skopiować i wkleić poniższy kod**.
+Domyślnie jest ustawiony czas: po 3 godzinach. 
 
-```html
-<h2 class="text-center mb-5 fw-bold text-white">🔥 Oferta tylko dla Ciebie -50% <span style="color:#f1c50e;"></span></h2>
-<countdown-time-v2 
-seconds="1500" 
-test-mode="false" 
-after-countdown-text="Promocja zakończona"
-custom-classes="bg-primary text-white"
->
-  <div class="row d-flex align-items-center">
-    <div class="">
-    
-    <div class="text-center"><a href="#" class="btn btn-warning btn-lg fw-bolder py-3 px-5">KUP TERAZ</a></div>
-    </div>
-</div>
-</countdown-time-v2>
-```
+W sekcji **Wiadomość po nieudanym zakupie** wpisujemy treść wiadomości, jaką chcemy wysłać. Czyli:
 
-Na stronie zakupowej sekcja z odliczaniem czasu będzie wyglądała tak:
+- **tytuł** - tytuł wiadomości, jaką użytkownik zobaczy w swojej skrzynce mailowej
+- **treść** - wiadomość zachęcająca do powrotu i dokończenia zakupu
+- **wezwanie do działania** - czyli CTA, jakie pojawi się na przycisku. Po kliknięciu w przycisk użytkownik automatycznie zostanie przekierowany do strony zakupowej w celu dokończenia rozpoczętego zakupu danego produktu.
 
-<img src="/img/screen-odliczanie-2.png" alt=""/>
+Wiadomość ta wygląda tak:
 
-Po zakończeniu odliczania sekcja będzie wyglądała tak:
+<img src="/img/screen-porzucony-koszyk-1.png" alt=""/>
 
-<img src="/img/screen-odliczanie-3.png" alt=""/>
+Istnieje możliwość wysłania wiadomości w formie zwykłego tekstu (bez nagłówku, kolorowego przycisku, itp). 
 
-Oczywiście istnieje możliwość modyfikacji kolorystycznej tego komponentu. Jeśli potrzebujesz w tym pomocy, napisz do nas. Chętnie pomożemy. 
+Wiadomość ta wygląda tak:
 
-**Co warto zdefiniować przy tym komponencie:**
+<img src="/img/screen-porzucony-koszyk-2.png" alt=""/>
 
-- **nagłówek** - tutaj należy wstawić swój nagłówek. Zaproponowany tekst to: Oferta tylko dla Ciebie -50%.
-- **seconds** - tutaj należy wstawić długość odliczania czasu, w sekundach. Przykład: jeśli chcesz, aby odliczało od 10 minut, wstaw w tym miejscu 600. 
-- **after-countdown-text** - tutaj należy wstawić tekst, jaki ma się pojawić po zakończeniu odliczania. Zaproponowany tekst to: Promocja zakończona. 
-- **CTA na przycisku** - tutaj można wstawić swoje CTA. Zaproponowane CTA to: KUP TERAZ.
+**WAŻNE**
 
-<img src="/img/screen-odliczanie-4.png" alt=""/>
+- jeśli został ustawiony czas wysyłki wiadomości np.: po 1 godzinie, ale do tego czasu użytkownik dokończył (wcześniej rozpoczęty) proces zakupowy **wiadomość nie zostanie do niego wysłana**.
+- jeśli użytkownik rozpoczął zakup produktu, ale nie dokończył to np: po 1 godzinie zostanie wysłana do niego wiadomość. Jeśli po otrzymanej wiadomości ponownie rozpocznie proces zakupowy, ale znowu jego nie dokończy. Kolejna wiadomość po upływie 1 godziny nie zostanie wysłana. **Podsumowując: wiadomosć wysyłana jest tylko raz.** 
+- jeśli użytkownik rozpoczął zakup produktu A (ale nie dokończył), a następnie rozpoczął zakup produktu B (i również nie dokończył) to w otrzymanej wiadomości (po kliknięciu w przycisk) zostanie przekierowany do **dokończenia zakupu produktu B.**
+- funkcja ta działa **wyłącznie przy płatnościach jednorazowych**, a nie subskrypcyjnych (czyli, jeśli ktoś rozpoczął proces podpinania karty pod platformę subskrypcyjną, ale nie dokończył. Wiadomość nie zostanie wysłana).
+
