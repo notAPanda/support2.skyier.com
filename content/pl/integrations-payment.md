@@ -47,9 +47,39 @@ Wybierz Ustawienia -> Powiadomienia -> Konfiguracja urlc
 
 Wybór środowiska:<br>
 - Produkcyjne - ustawiamy, kiedy chcemy przyjmować już faktyczne płatności.
-- Testowe (Sandbox) - ustawiamy, kiedy chcemy przeprowadzić płatność testową. 
+- Testowe (Sandbox) - ustawiamy, kiedy masz w PayU wybraną wersję testową i chcesz przeprowadzić płatność testową. 
 
-**Gdzie znaleźć Pos id, MD5, Client id, Client secret?**
+**Jak dodać i gdzie znaleźć Pos id, MD5, Client id, Client secret?**
+
+Wybierz Moje sklepy -> Dodaj sklep
+
+<img src="/img/screen-payu-4.jpg" alt=""/>
+
+**Wypełnij 1 krok formularza.** Podając obowiązkowo:
+
+- Adres strony 
+- Nazwę sklepu - ta nazwa będzie widoczna na wydruku przelewu
+
+<img src="/img/screen-payu-7.jpg" alt=""/>
+
+W przypadku adresu strony (jeśli nie masz go jeszcze dodanego) wybierz opcję inny adres, a następnie wypełnij formularz, który się pojawił.
+
+W polu **Inny adres www** wybierz: https:// i podaj adres url swojej platformy. Przykład: https://inspiracje.skyier.pl
+
+<img src="/img/screen-payu-8.jpg" alt=""/>
+
+**Przejdź do kroku drugiego kroku**, podając obowiązkowo:
+
+- Typ punktu płatności: REST API (checkout)
+- Nazwa punktu płatności
+
+Kliknij przycisk **Dodaj sklep**. Pojawią Ci się dane, które należy wpisać w Skyier.
+
+<img src="/img/screen-payu-6.jpg" alt=""/>
+
+
+
+**Gdzie znaleźć Pos id, MD5, Client id, Client secret? - kiedy masz już dodany sklep**
 
 Wybierz Płatności elektroniczne -> Moje sklepy -> Punkty płatności wybranego sklepu
 
@@ -59,7 +89,6 @@ Wybierz ponownie Punkt płatności i przejdź do szczegółówych informacji, na
 
 <img src="/img/screen-payu-3.jpg" alt=""/>
 
-**Dodatkowo trzeba pamiętać, aby przy tworzeniu sklepu podać adres url platformy.**
 
 <br>
 
