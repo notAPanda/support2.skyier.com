@@ -66,12 +66,16 @@ W przypadku adresu strony (jeśli nie masz go jeszcze dodanego) wybierz opcję i
 
 W polu **Inny adres www** wybierz: https:// i podaj adres url swojej platformy. Przykład: https://inspiracje.skyier.pl
 
+Uzupełnij inne obowiązkowe pola.
+
 <img src="/img/screen-payu-8.jpg" alt=""/>
 
-**Przejdź do kroku drugiego kroku**, podając obowiązkowo:
+**Przejdź do kroku drugiego kroku**
 
-- Typ punktu płatności: REST API (checkout)
-- Nazwa punktu płatności
+- wybierz Typ punktu płatności: REST API (checkout)
+- podaj Nazwę punktu płatności
+
+<img src="/img/screen-payu-5.jpg" alt=""/>
 
 Kliknij przycisk **Dodaj sklep**. Pojawią Ci się dane, które należy wpisać w Skyier.
 
