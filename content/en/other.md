@@ -5,40 +5,6 @@ position: 11
 category: ''
 ---
 
-## Ukrywanie produktu
-
-Aby ukryć kurs lub inny produkt na Liście produktów należy wejść w **Edycję produktu.** 
-
-<img src="/img/screen-edycja-kursu.jpg" alt=""/>
-
-A następnie przejść do **sekcji SZCZEGÓŁY** i zaznaczyć opcję *Ukryj na liście produktów*. 
-
-<img src="/img/screen-ukryj-kurs.png" alt=""/>
-
-**Dzięki tej opcji możliwe jest wysłanie linku do produktu wyłącznie dla wybranych osób.**
-
-**Wyłącznie osoby, które zakupią produkt z linku będą go widziały na swojej platformie.**
-
-<br>
-
-## Wyłączenie produktu ze sprzedaży
-
-Aby wyłączyć produkt ze sprzedaży należy wejść w **Edycję produktu.** 
-
-<img src="/img/screen-edycja-kursu.jpg" alt=""/>
-
-A następnie przejść do **sekcji SZCZEGÓŁY** i zaznaczyć opcję *Produkt wyłączony ze sprzedaży*. 
-
-<img src="/img/screen-wylaczenie-sprzedaz-1.jpg" alt=""/>
-
-Na stronie sprzedażowej (checkoucie) napis na przycisku zakupowym zmieni się na *Produkt wyłączony ze sprzedaży* i zakup nie będzie możliwy. 
-
-<img src="/img/screen-wylaczenie-sprzedaz-2.jpg" alt=""/>
-
-**Dzięki tej opcji możliwe jest wyłączenie produktu z dalszej sprzedaży. Osoby, które zakupiły produkt przed włączeniem tej opcji nadal będą miały do niego dostęp.** 
-
-<br>
-
 ## Leady
 
 Aby zacząć zbierać leady (adresy e-mail) należy na **stronie sprzedażowej dodać komponent ZBIERANIE LEADÓW.**
