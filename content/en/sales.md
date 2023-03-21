@@ -486,4 +486,61 @@ Oczywiście istnieje możliwość modyfikacji kolorystycznej tego komponentu. Je
 
 <img src="/img/screen-odliczanie-4.png" alt=""/>
 
+## Adres url po zakupie produktu
+
+Adres url po zakupie produktu online ma strukturę: https://adres-domeny/id-produktu/unikalny-numer-zamowienia/payment/success
+
+Przykład: https://inspiracje.skyier.pl/2265/s7snE45UIwPw/payment/success
+
+Niezmieniającymi się danymi w adresie jest: /payment/success
+
+<br/>
+
+## Zakup produktu wyłącznie przez wybrane osoby
+
+Jeśli chcesz umożliwić zakup produktu online tylko dla wybranych osób (np. osobom, które zapisały się na newsletter) skorzystaj z opcji **Ukryj na liście produktów**.
+
+Aby ją włączyć należy wejść w **Edycję produktu.** 
+
+<img src="/img/screen-edycja-kursu.jpg" alt=""/>
+
+A następnie przejść do **sekcji SZCZEGÓŁY** i zaznaczyć opcję *Ukryj na liście produktów*. 
+
+<img src="/img/screen-ukryj-kurs.png" alt=""/>
+
+Ostatnim krokiem jest wysłanie wybranym osobom **linku do strony sprzedażowej lub bezpośrednio do strony zakupowej**.
+
+Znajdziesz ten link na stronie PRODUKTY, po kliknięciu w ikonkę **linku** przy wybranym produkcie.
+
+<img src="/img/screen-ukryj-kurs-4.jpg" alt=""/>
+
+**WAŻNE.** Włączenie tej opcji spodowuje, że produkt online nie będzie widoczny dla pozostałych użytkowników. Nie pokaże się on na:
+
+- liście wszystkich produktów online na stronie głównej (jeśli użyłeś tego komponentu) 
+
+<img src="/img/screen-ukryj-kurs-2.jpg" alt=""/>
+
+- liście wszystkich produktów online w panelu uczestnika (po zalogowaniu)
+
+<img src="/img/screen-ukryj-kurs-3.jpg" alt=""/>
+
+
+<br>
+
+## Wyłączenie produktu ze sprzedaży
+
+Aby wyłączyć produkt ze sprzedaży należy wejść w **Edycję produktu.** 
+
+<img src="/img/screen-edycja-kursu.jpg" alt=""/>
+
+A następnie przejść do **sekcji SZCZEGÓŁY** i zaznaczyć opcję *Produkt wyłączony ze sprzedaży*. 
+
+<img src="/img/screen-wylaczenie-sprzedaz-1.jpg" alt=""/>
+
+Na stronie sprzedażowej (checkoucie) napis na przycisku zakupowym zmieni się na *Produkt wyłączony ze sprzedaży* i zakup nie będzie możliwy. 
+
+<img src="/img/screen-wylaczenie-sprzedaz-2.jpg" alt=""/>
+
+**Dzięki tej opcji możliwe jest wyłączenie produktu z dalszej sprzedaży. Osoby, które zakupiły produkt przed włączeniem tej opcji nadal będą miały do niego dostęp.** 
+
 

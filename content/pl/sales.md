@@ -387,7 +387,7 @@ Jeśli wyłączymy opcję *Warianty cenowe* i zaczniemy sprzedawać kurs tylko w
 
 <br>
 
-## Cross-selling. Dosprzedaz
+## Cross-selling. Dosprzedaż
 
 Jeśli chcesz na stronie zakupowej umożliwić użytkownikowi zakup dodatkowego produktu to skorzystaj z opcji Dosprzedaży - Cross-selling'u. Użytkownik na etapie dokonywania zakupu będzie mógł zdecydować, czy i który produkt chce jeszcze dokupić. 
 
