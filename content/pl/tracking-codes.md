@@ -17,7 +17,7 @@ Kod pixel FB i Google Analytics rekomendujemy dodanie w sekcji **head**.
 
 Jeśli dodasz Pixel FB lub kod Google Analytics wiedz, że Skyier automatycznie wysyła, takie eventy jak:
 
-**purchase (zakup)**. W momencie, kiedy ktoś dokona zakupu a system dostanie potwierdzenie, że zakup płatność przebiegła poprawnie. Dzięki temu od razu jest podgląd, która reklama generuje najwięcej konwersji (rzeczywistych sprzedaży).
+**Purchase (zakup)**. W momencie, kiedy ktoś dokona zakupu a system dostanie potwierdzenie, że zakup płatność przebiegła poprawnie. Dzięki temu od razu jest podgląd, która reklama generuje najwięcej konwersji (rzeczywistych sprzedaży).
 
 Tutaj dane szczegółowe wysyłanego eventu:
 
@@ -55,7 +55,7 @@ ga('event', 'purchase', {
 })
 ```
 
-**initiateCheckout / begin_checkout (zainicjowanie przejścia do płatności)**. W momencie, kiedy ktoś na stronie dokonywania zakupu klinie w przycisk Kup teraz, ale z jakiś przyczyn nie dokończy zakupu. Dzięki temu można targetować użytkowników, którzy rozpoczęli, ale nie dokończyli płatności.
+**InitiateCheckout / begin_checkout (zainicjowanie przejścia do płatności)**. W momencie, kiedy ktoś na stronie dokonywania zakupu klinie w przycisk Kup teraz, ale z jakiś przyczyn nie dokończy zakupu. Dzięki temu można targetować użytkowników, którzy rozpoczęli, ale nie dokończyli płatności.
 
 ```js
 // do facebooka są wysyłane takie dane
@@ -67,5 +67,5 @@ ga('event', 'begin_checkout')
 ```
 
 
-**Uwagi** Jeśli na stronie nie ma zainstalowanych skryptów od Facebooka / Google - eventy nie wysyłają się.
+**Uwagi**: Jeśli na stronie nie ma zainstalowanych skryptów od Facebooka / Google - eventy nie wysyłają się.
 W przypadku korzystania z innych narzędzi analiycznych - dane konwersji można pobrać z dataLayer.

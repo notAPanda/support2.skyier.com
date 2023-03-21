@@ -513,7 +513,7 @@ W sekcji **Wiadomość po nieudanym zakupie** wpisujemy treść wiadomości, jak
 
 - **tytuł** - tytuł wiadomości, jaką użytkownik zobaczy w swojej skrzynce mailowej
 - **treść** - wiadomość zachęcająca do powrotu i dokończenia zakupu
-- **wezwanie do działania** - czyli CTA, jakie pojawi się na przycisku. Po kliknięciu w przycisk użytkownik automatycznie zostanie przekierowany do strony zakupowej w celu dokończenia rozpoczętego zakupu danego produktu.
+- **wezwanie do działania** - czyli CTA, jakie pojawi się na przycisku. Po kliknięciu w przycisk użytkownik automatycznie zostanie przekierowany do strony zakupowej w celu dokończenia rozpoczętego procesu zakupowego.
 
 **Wiadomość ta wygląda tak:**
 
@@ -528,7 +528,15 @@ W sekcji **Wiadomość po nieudanym zakupie** wpisujemy treść wiadomości, jak
 **WAŻNE**
 
 - jeśli został ustawiony czas wysyłki wiadomości np.: po 1 godzinie, ale do tego czasu użytkownik dokończył (wcześniej rozpoczęty) proces zakupowy **wiadomość nie zostanie do niego wysłana**.
-- jeśli użytkownik rozpoczął zakup produktu, ale nie dokończył to np: po 1 godzinie zostanie wysłana do niego wiadomość. Jeśli po otrzymanej wiadomości ponownie rozpocznie proces zakupowy, ale znowu jego nie dokończy. Kolejna wiadomość po upływie 1 godziny nie zostanie wysłana. **Podsumowując: wiadomosć wysyłana jest tylko raz.** 
-- jeśli użytkownik rozpoczął zakup produktu A (ale nie dokończył), a następnie rozpoczął zakup produktu B (i również nie dokończył) to w otrzymanej wiadomości (po kliknięciu w przycisk) zostanie przekierowany do **dokończenia zakupu produktu B.**
+- jeśli użytkownik rozpoczął zakup produktu, ale nie dokończył to np: po 1 godzinie zostanie wysłana do niego wiadomość. Jeśli po otrzymanej wiadomości ponownie rozpocznie proces zakupowy, ale ponownie nie dokończy. Kolejna wiadomość po upływie 1 godziny nie zostanie wysłana. **Podsumowując: wiadomosć wysyłana jest tylko raz.** 
+- jeśli użytkownik rozpoczął zakup produktu A (ale nie dokończył), a następnie rozpoczął zakup produktu B (i również nie dokończył) to w otrzymanej wiadomości zostanie przekierowany do **dokończenia zakupu produktu B.**
 - funkcja ta działa **wyłącznie przy płatnościach jednorazowych**, a nie subskrypcyjnych (czyli, jeśli ktoś rozpoczął proces podpinania karty pod platformę subskrypcyjną, ale nie dokończył. Wiadomość nie zostanie wysłana).
 
+
+## Adres url po zakupie produktu
+
+Adres url po zakupie produktu online ma strukturę: https://adres-domeny/id-produktu/unikalny-numer-zamowienia/payment/success
+
+Przykład: https://inspiracje.skyier.pl/2265/s7snE45UIwPw/payment/success
+
+Niezmieniającymi się danymi w adresie jest: /payment/success

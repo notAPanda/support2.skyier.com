@@ -41,6 +41,8 @@ category: ''
 
 * **Manualne wystawianie faktur** - zaznacz, jeśli chcesz, aby faktura nie została automatycznie wysłana po zakupie kursu. Wówczas, aby wystawić fakturę trzeba wejść w SPRZEDAŻ i przy danej transkacji kliknąć przycisk *attempt*. Wystawienie faktur zadziała tylko w momencie, kiedy jest zrobiona integracja z systemem do fakturowania (InFakt, Fakturownia, iFirma, Taxe, Taxxo).
 
+* **Wystawianie faktur tylko dla firm** - zaznacz, jeśli chcesz, aby faktury nie były automatycznie wystawiane i wysyłane do użytkowników, którzy dokonują zakupu jako "Osoby fizyczne". Dokumenty będą wysyłane wyłącznie do osób, które dokonują zakupu jako "Firma". 
+
 * **Pole do wpisania kodu rabatowego** - zaznacz, jeśli chcesz, aby na stronie płatności pojawiło się pole do wpisania kodu promocyjnego dla użytkowników. Pole to pojawi się nad przyciskiem Kup teraz.
 
 <img src="/img/screen-kod-rabatowy.jpg" alt=""/>
