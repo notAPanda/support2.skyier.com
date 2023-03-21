@@ -94,3 +94,58 @@ A następnie przy wybranym kursie wybrać opcję **Zaanagżowanie**.
 <img src="/img/screen-zaangazowanie.png" alt=""/>
 
 Przejdziesz na stronę, gdzie otrzymasz listę uczestników kursu wraz z ich postępem w nauce. 
+
+## Tagi
+
+Tagi umożliwiają kategoryzowanie, porządkowanie oraz wyświetlanie wybranych produktów online jako rekomendowanych w panelu uczestnika. 
+
+### Tagi publiczne
+
+W tagach publicznych dodajesz tagi tematyczne (kategorie), na jakie chciałbyś podzielić swoje produkty online. Jeśli w swojej ofercie posiadasz różnorodne produkty online, typu: kursy online, webinary, konsultacje, e-booki. To możesz zastosować właśnie taki podział. Jeśli natomiast posiadasz wyłącznie kursy online na różne tematy, typu: marketing, reklama, sprzedaż. To również możesz wprowadzić taką kategoryzację. Kategoryzacja ma za zadanie ułatwić użytkownikowi znalezienie produktów czy też tematu, jaki go interesuje. 
+
+<img src="/img/screen-tagi-publiczne.png" alt=""/>
+
+**Dodane tagi będą widoczne:** 
+
+- **na liście wszystkich produktów** 
+
+<img src="/img/screen-tagi-publiczne-2.jpg" alt=""/>
+
+- **w panelu uczestnika** 
+
+<img src="/img/screen-tagi-publiczne-3.jpg" alt=""/>
+
+<br>
+
+### Tagi przypisane do produktu
+
+W tym miejscu należy wybrać tag, jaki chcemy przypisać do tego konkretnego produktu. Do jednego produktu możemy przypisać **maksymalnie 5 tagów**. 
+
+Trzeba pamiętać o tym, że tutaj dodajemy wyłącznie tagi, jakie zostały dodane w polu **Tagi publiczne**. Czyli najpierw trzeba dodać tag do tagów publicznych, aby było można później przypisać go do konkretnego produktu. 
+
+<img src="/img/screen-tagi-przypisane.png" alt=""/>
+
+<br>
+
+### Tagi prywatne
+
+Tagi prywatne mają z kolei podwójną funkcję. Mogą być używane do:
+
+- **prowadzenia Twojej wewnętrznej kategoryzacji w celu uporządkowania produktów online**. I w tym wypadku są one widoczne wyłącznie dla Ciebie. Będę widoczne przy produkcie na liście wszystkich PRODUKTÓW.
+
+<img src="/img/screen-tag-prywatne.png" alt=""/>
+
+- **rekomendowania wybranych produktów**. Dodając w tym polu dodatkowo tag "recommended" sprawiasz, że produkt ten będzie się pojawiał w produktach rekomendowanych dla uczestnika.
+
+<img src="/img/screen-tag-recommended.png" alt=""/>
+
+Uczestnik będzie widział listę produktów rekomendowanych po zalogowaniu do platformy. 
+
+<img src="/img/screen-tag-recommended-2.png" alt=""/>
+
+Produkt nie pokazują się na liście rekomendowanych w sytuacji, gdy: 
+
+- **nie jest opublikowany**
+- **jest włączona przy nim opcja Ukryj na liście produktów**
+
+Rekomendowany produkt nie pokazuje się uczestnikom, którzy już dokonali zakupu tego produktu. 
