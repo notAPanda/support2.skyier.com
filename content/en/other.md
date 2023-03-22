@@ -95,6 +95,8 @@ A następnie przy wybranym kursie wybrać opcję **Zaanagżowanie**.
 
 Przejdziesz na stronę, gdzie otrzymasz listę uczestników kursu wraz z ich postępem w nauce. 
 
+<br>
+
 ## Tagi
 
 Tagi umożliwiają kategoryzowanie, porządkowanie oraz wyświetlanie wybranych produktów online jako rekomendowanych w panelu uczestnika. 
@@ -131,7 +133,7 @@ Trzeba pamiętać o tym, że tutaj dodajemy wyłącznie tagi, jakie zostały dod
 
 Tagi prywatne mają z kolei podwójną funkcję. Mogą być używane do:
 
-- **prowadzenia Twojej wewnętrznej kategoryzacji w celu uporządkowania produktów online**. I w tym wypadku są one widoczne wyłącznie dla Ciebie. Będę widoczne przy produkcie na liście wszystkich PRODUKTÓW.
+- **wprowadzenia wewnętrznej kategoryzacji w celu uporządkowania produktów online**. I w tym wypadku są one widoczne wyłącznie dla Ciebie. Będę widoczne przy produkcie na liście wszystkich PRODUKTÓW.
 
 <img src="/img/screen-tag-prywatne.png" alt=""/>
 

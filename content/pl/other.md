@@ -103,7 +103,13 @@ Tagi umożliwiają kategoryzowanie, porządkowanie oraz wyświetlanie wybranych 
 
 ### Tagi publiczne
 
-W tagach publicznych dodajesz tagi tematyczne (kategorie), na jakie chciałbyś podzielić swoje produkty online. Jeśli w swojej ofercie posiadasz różnorodne produkty online, typu: kursy online, webinary, konsultacje, e-booki. To możesz zastosować właśnie taki podział. Jeśli natomiast posiadasz wyłącznie kursy online na różne tematy, typu: marketing, reklama, sprzedaż. To również możesz wprowadzić taką kategoryzację. Kategoryzacja ma za zadanie ułatwić użytkownikowi znalezienie produktów czy też tematu, jaki go interesuje. 
+W tagach publicznych dodajesz tagi tematyczne (kategorie), na jakie chciałbyś podzielić swoje produkty online. 
+
+Jeśli w swojej ofercie posiadasz różnorodne produkty online, typu: kursy online, webinary, konsultacje, e-booki. To możesz zastosować właśnie taki podział. 
+
+Jeśli natomiast posiadasz wyłącznie kursy online na różne tematy, typu: marketing, reklama, sprzedaż. To również możesz wprowadzić taką kategoryzację. 
+
+**Kategoryzacja ma za zadanie ułatwić użytkownikowi znalezienie produktów czy też tematu, jaki go interesuje.** 
 
 <img src="/img/screen-tagi-publiczne.png" alt=""/>
 
@@ -121,9 +127,9 @@ W tagach publicznych dodajesz tagi tematyczne (kategorie), na jakie chciałbyś 
 
 ### Tagi przypisane do produktu
 
-W tym miejscu należy wybrać tag, jaki chcemy przypisać do tego konkretnego produktu. Do jednego produktu możemy przypisać **maksymalnie 5 tagów**. 
+W tym miejscu należy wybrać tag, jaki chcemy przypisać do konkretnego produktu. Do jednego produktu możemy przypisać **maksymalnie 5 tagów**. 
 
-Trzeba pamiętać o tym, że tutaj dodajemy wyłącznie tagi, jakie zostały dodane w polu **Tagi publiczne**. Czyli najpierw trzeba dodać tag do tagów publicznych, aby było można później przypisać go do konkretnego produktu. 
+Trzeba pamiętać o tym, że tutaj dodajemy wyłącznie tagi, jakie zostały dodane w polu **Tagi publiczne**. Czyli najpierw trzeba dodać tag do tagów publicznych, aby było można później do wybrać z dostępnych tagów. 
 
 <img src="/img/screen-tagi-przypisane.png" alt=""/>
 
@@ -133,7 +139,7 @@ Trzeba pamiętać o tym, że tutaj dodajemy wyłącznie tagi, jakie zostały dod
 
 Tagi prywatne mają z kolei podwójną funkcję. Mogą być używane do:
 
-- **prowadzenia Twojej wewnętrznej kategoryzacji w celu uporządkowania produktów online**. I w tym wypadku są one widoczne wyłącznie dla Ciebie. Będę widoczne przy produkcie na liście wszystkich PRODUKTÓW.
+- **wprowadzenia wewnętrznej kategoryzacji w celu uporządkowania produktów online**. I w tym wypadku są one widoczne wyłącznie dla Ciebie. Będę widoczne przy produkcie na liście wszystkich PRODUKTÓW.
 
 <img src="/img/screen-tag-prywatne.png" alt=""/>
 
