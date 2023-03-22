@@ -162,7 +162,7 @@ Rekomendowany produkt nie pokazuje się uczestnikom, którzy już dokonali zakup
 
 ## Recenzje
 
-Recenzje to opcja, która umożliwia zbieranie opinii na temat kursu online. Opinia może być wystawiona wyłącznie przez osobę, która ma dostęp do produktu (zakupiła go lub dostęp został nadany manualnie).  
+Recenzje to opcja, która umożliwia zbieranie opinii na temat kursu online lub webinaru. Opinia może być wystawiona wyłącznie przez osobę, która ma dostęp do produktu (zakupiła go lub dostęp został nadany manualnie).  
 
 **Jak to działa?**
 
