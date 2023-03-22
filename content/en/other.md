@@ -151,3 +151,31 @@ Produkt nie pokazują się na liście rekomendowanych w sytuacji, gdy:
 - **jest włączona przy nim opcja Ukryj na liście produktów**
 
 Rekomendowany produkt nie pokazuje się uczestnikom, którzy już dokonali zakupu tego produktu. 
+
+## Recenzje
+
+Recenzje to opcja, która umożliwia zbieranie opinii na temat kursu online. Opinia może być wystawiona wyłącznie przez osobę, która ma dostęp do produktu (zakupiła go lub dostęp został nadany manualnie).  
+
+**Jak to działa?**
+
+Uczestnik po zalogowaniu do platformy i przejściu do panelu oglądania ma możliwość skorzystania z opcji **Zostaw recenzję**.
+
+<img src="/img/screen-recenzja-1.png" alt=""/>
+
+Po kliknięciu pokazuje się jemu formularz z pytaniem.
+
+<img src="/img/screen-recenzja-2.png" alt=""/>
+
+Po wybraniu odpowiedzi, pokazuje się pole, umożliwiające uzasadnienie swojego wyboru. Uzupełnienie tego pola nie jest wymagane.
+
+<img src="/img/screen-recenzja-3.png" alt=""/>
+
+Opinie zbierają się na stronie z Recenzjami. Znaleźć ją można tutaj: PRODUKTY -> Recenzje. 
+
+<img src="/img/screen-recenzja-4.png" alt=""/>
+
+**Ważne.**
+
+- po wysłaniu opinii uczestnik nadal ma dostęp do tej funkcji. Nie znika ona z jego panelu. Czyli istnieje możliwość wysłania przez uczestnika nawet kilku opinii. 
+
+- opcja do zbierania recenzji jest na wszystkich platformach włączona automatycznie. 
