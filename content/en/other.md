@@ -160,19 +160,19 @@ Recenzje to opcja, która umożliwia zbieranie opinii na temat kursu online lub 
 
 Uczestnik po zalogowaniu do platformy i przejściu do panelu oglądania ma możliwość skorzystania z opcji **Zostaw recenzję**.
 
-<img src="/img/screen-recenzja-1.png" alt=""/>
+<img src="/img/screen-recenzje-1.png" alt=""/>
 
 Po kliknięciu pokazuje się jemu formularz z pytaniem.
 
-<img src="/img/screen-recenzja-2.png" alt=""/>
+<img src="/img/screen-recenzje-2.png" alt=""/>
 
 Po wybraniu odpowiedzi, pokazuje się pole, umożliwiające uzasadnienie swojego wyboru. Uzupełnienie tego pola nie jest wymagane.
 
-<img src="/img/screen-recenzja-3.png" alt=""/>
+<img src="/img/screen-recenzje-3.png" alt=""/>
 
 Opinie zbierają się na stronie z Recenzjami. Znaleźć ją można tutaj: PRODUKTY -> Recenzje. 
 
-<img src="/img/screen-recenzja-4.png" alt=""/>
+<img src="/img/screen-recenzje-4.png" alt=""/>
 
 **Ważne.**
 
