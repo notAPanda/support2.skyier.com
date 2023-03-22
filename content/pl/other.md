@@ -170,11 +170,11 @@ Uczestnik po zalogowaniu do platformy i przejściu do panelu oglądania ma możl
 
 <img src="/img/screen-recenzje-1.png" alt=""/>
 
-Po kliknięciu pokazuje się jemu formularz z pytaniem.
+Po kliknięciu pokazuje się formularz z pytaniem.
 
 <img src="/img/screen-recenzje-2.png" alt=""/>
 
-Po wybraniu odpowiedzi, pokazuje się pole, umożliwiające uzasadnienie swojego wyboru. Uzupełnienie tego pola nie jest wymagane.
+Po wybraniu odpowiedzi, wyświetla się pole, umożliwiające uzasadnienie swojego wyboru. Uzupełnienie tego pola nie jest wymagane.
 
 <img src="/img/screen-recenzje-3.png" alt=""/>
 
@@ -184,6 +184,6 @@ Opinie zbierają się na stronie z Recenzjami. Znaleźć ją można tutaj: PRODU
 
 **Ważne.**
 
-- po wysłaniu opinii uczestnik nadal ma dostęp do tej funkcji. Nie znika ona z jego panelu. Czyli istnieje możliwość wysłania przez uczestnika nawet kilku opinii. 
+- po wysłaniu opinii uczestnik nadal ma dostęp do tej funkcji. Nie znika ona z jego panelu. Czyli istnieje możliwość wysłania przez uczestnika nawet kilku opinii na temat jendnego produktu. 
 
-- opcja do zbierania recenzji jest na wszystkich platformach włączona automatycznie. 
+- opcja do zbierania recenzji jest włączona automatycznie na wszystkich platformach. 
