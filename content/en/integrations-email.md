@@ -109,6 +109,8 @@ Kliknięcie przycisku Kupuję i płacę nie daje nam gwarancji, że produkt zost
 
 Każdy produkt posiada swoje indywidualne id, znaleźć je można na **liście wszystkich PRODUKTÓW**. I dzięki temu id można rozpoznać, o jaki produkt dokładnie chodzi.
 
+Przykład: id47_checkout_started
+
 <img src="/img/screen-tag-1.png" alt=""/>
 
 - **idproduktu** - wysyłany jest w momencie zakończenia przez użytkownika procesu zakupowego produktu online. Ustawia się przy nim wartość 1.
@@ -117,6 +119,8 @@ Dzięki temu potrafimy wyfiltrować osoby, które kupiły jakiś konkretny produ
 
 Każdy produkt posiada swoje indywidualne id, znaleźć je można na **liście wszystkich PRODUKTÓW**. I dzięki temu id można rozpoznać, o jaki produkt dokładnie chodzi.
 
+Przykład: id47
+
 <img src="/img/screen-tag-1.png" alt=""/>
 
 - **idproduktu_progress** - wysyłany jest w momencie rozpoczęcia przez uczestnika przerabiania kursu online. Przy tym tagu znaleźć można informacje, na jakim etapie (postępie) jest uczestnik.
@@ -124,6 +128,8 @@ Każdy produkt posiada swoje indywidualne id, znaleźć je można na **liście w
 Dzięki temu potrafimy wyfiltrować osoby, który ukończyły kurs w 100% i wysłać do nich wiadomość z gratulacjami oraz osoby, które są na początku i wysłać do nich wiadomość motywującą do działania.
 
 Każdy produkt posiada swoje indywidualne id, znaleźć je można na **liście wszystkich PRODUKTÓW**. I dzięki temu id można rozpoznać, o jaki produkt dokładnie chodzi.
+
+Przykład: id47_progress
 
 <img src="/img/screen-tag-1.png" alt=""/>
 

@@ -109,6 +109,8 @@ Kliknięcie przycisku Kupuję i płacę nie daje nam gwarancji, że produkt zost
 
 Każdy produkt posiada swoje indywidualne id, znaleźć je można na **liście wszystkich PRODUKTÓW**. I dzięki temu id można rozpoznać, o jaki produkt dokładnie chodzi.
 
+Przykład: id47_checkout_started
+
 <img src="/img/screen-tag-1.png" alt=""/>
 
 - **idproduktu** - wysyłany jest w momencie zakończenia przez użytkownika procesu zakupowego produktu online. Ustawia się przy nim wartość 1.
@@ -116,6 +118,8 @@ Każdy produkt posiada swoje indywidualne id, znaleźć je można na **liście w
 Dzięki temu potrafimy wyfiltrować osoby, które kupiły jakiś konkretny produkt online i wysłać do nich wiadomość.
 
 Każdy produkt posiada swoje indywidualne id, znaleźć je można na **liście wszystkich PRODUKTÓW**. I dzięki temu id można rozpoznać, o jaki produkt dokładnie chodzi.
+
+Przykład: id47
 
 <img src="/img/screen-tag-1.png" alt=""/>
 
@@ -125,9 +129,11 @@ Dzięki temu potrafimy wyfiltrować osoby, który ukończyły kurs w 100% i wys�
 
 Każdy produkt posiada swoje indywidualne id, znaleźć je można na **liście wszystkich PRODUKTÓW**. I dzięki temu id można rozpoznać, o jaki produkt dokładnie chodzi.
 
+Przykład: id47_progress
+
 <img src="/img/screen-tag-1.png" alt=""/>
 
 - **subscription** - wysyłany jest, kiedy użytkownik dołącza do subskrypcji. Przy aktywnym subskrybencie ustawia się wartość 1, a przy osobie, która zrezygnowała z subskrypcji ustawia się wartość 0. 
 
-Dzięki temu potrafimy wyfiltrować aktywnych subskrybentów. 
+Dzięki temu potrafimy wyfiltrować aktywnych subskrybentów.
 
