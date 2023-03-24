@@ -94,3 +94,40 @@ Pod nazwą listy znajduje się List token.
 <img src="/img/screen-getresponse-3.jpg" alt=""/>
 
 E-maile studentów będą pojawiać na liście, której token zostanie wskazany w integracji.
+
+<br>
+
+## Tagi
+
+Lista tagów wysyłanych do narzędzi e-mail marketingu. Poszczególne tagi przypisują się automatycznie do użytkownika, w zależności od działań, jakie podejmie na platformie. 
+
+- **registered** - wysyłany jest w momencie założenia przez użytkownika konta na platformie (czyli dokonania rejestracji). Użytkownik zakłada automatycznie konto (czyli dokonuje rejestracji) przy dokonywaniu zakupu. Ustawia się przy nim wartość 1.
+
+- **idproduktu_checkout_started** - wysyłany jest w momencie rozpoczęcia przez użytkownika procesu zakupowego produktu online. Ścieżka użytkownika: **strona zakupowa -> wypełnienie formularza zakupowego -> kliknięcie przycisk Kupuję i płacę**. I ten ostatni krok, czyli kliknięcie przycisku Kupuję i płacę aktywuje wysłanie tego tagu. Ustawia się przy nim wartość 1.
+
+Kliknięcie przycisku Kupuję i płacę nie daje nam gwarancji, że produkt został zakupiony. Bowiem użytkownik może zrezygnować z zakupu na etapie dokonywania płatności. Dlatego ten tag można wykorzystać do ustawienia automatyzacji odzyskiwania koszyka zakupowego. 
+
+Każdy produkt posiada swoje indywidualne id, znaleźć je można na **liście wszystkich PRODUKTÓW**. I dzięki temu id można rozpoznać, o jaki produkt dokładnie chodzi.
+
+<img src="/img/screen-tag-1.png" alt=""/>
+
+- **idproduktu** - wysyłany jest w momencie zakończenia przez użytkownika procesu zakupowego produktu online. Ustawia się przy nim wartość 1.
+
+Dzięki temu potrafimy wyfiltrować osoby, które kupiły jakiś konkretny produkt online i wysłać do nich wiadomość.
+
+Każdy produkt posiada swoje indywidualne id, znaleźć je można na **liście wszystkich PRODUKTÓW**. I dzięki temu id można rozpoznać, o jaki produkt dokładnie chodzi.
+
+<img src="/img/screen-tag-1.png" alt=""/>
+
+- **idproduktu_progress** - wysyłany jest w momencie rozpoczęcia przez uczestnika przerabiania kursu online. Przy tym tagu znaleźć można informacje, na jakim etapie (postępie) jest uczestnik.
+
+Dzięki temu potrafimy wyfiltrować osoby, który ukończyły kurs w 100% i wysłać do nich wiadomość z gratulacjami oraz osoby, które są na początku i wysłać do nich wiadomość motywującą do działania.
+
+Każdy produkt posiada swoje indywidualne id, znaleźć je można na **liście wszystkich PRODUKTÓW**. I dzięki temu id można rozpoznać, o jaki produkt dokładnie chodzi.
+
+<img src="/img/screen-tag-1.png" alt=""/>
+
+- **subscription** - wysyłany jest, kiedy użytkownik dołącza do subskrypcji. Przy aktywnym subskrybencie ustawia się wartość 1, a przy osobie, która zrezygnowała z subskrypcji ustawia się wartość 0. 
+
+Dzięki temu potrafimy wyfiltrować aktywnych subskrybentów. 
+

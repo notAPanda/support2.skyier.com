@@ -187,3 +187,22 @@ Opinie zbierają się na stronie z Recenzjami. Znaleźć ją można tutaj: PRODU
 - po wysłaniu opinii uczestnik nadal ma dostęp do tej funkcji. Nie znika ona z jego panelu. Czyli istnieje możliwość wysłania przez uczestnika nawet kilku opinii na temat jendnego produktu. 
 
 - opcja do zbierania recenzji jest włączona automatycznie na wszystkich platformach. 
+
+<br>
+
+## Czas trwania lekcji
+
+Aby podać uczestnikowi długość trwania lekcji należy przejść do **Listy lekcji**.
+
+A następnie kliknąć ikonkę **zegara**.
+
+<img src="/img/screen-czas-trwania-1.png" alt=""/>
+
+W formularzu należy wpisać długość trwania lekcji w minutach. 
+
+Podany czas, uczestnik będzie widział w swoim panelu oglądania.
+
+<img src="/img/screen-czas-trwania-2.png" alt=""/>
+
+
+
