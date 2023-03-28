@@ -7,8 +7,37 @@ category: ''
 
 ## Ustawienia
 * **Nazwa strony** - nazwa ta będzie widoczna w lewym górnym rogu (tam, gdzie najczęściej wstawiane jest logo). Jeśli natomiast dodasz logo w poniższej sekcji OBRAZY to wówczas Nazwa strony zostanie zastąpiona logo. 
-* **Domena** - adres url, pod jakim będzie dostępna platforma do sprzedaży kursów. Przykład: kursy.nataliablizniuk.pl.
-Instrukcję, jak przekierować domenę znajdziesz tutaj https://www.youtube.com/watch?v=cMElydWM6f8
+* **Domena** - adres url, pod jakim będzie dostępna platforma do sprzedaży produktów online. Platforma może działać na subdomenie, przykład: kursy.nataliablizniuk.pl. lub na domenie głównej, przykład: nataliablizniuk.pl. 
+
+<br/>
+
+### Jak przekierować domenę?
+
+1. Zaloguj się do swojego panelu zarządzania domeną (ovh, home, the camels, itp.).
+
+2. Znajdź ustawienia rekordów DNS.
+
+3. Dodaj rekord CNAME dla Twojej domeny. W zależności od panelu administracyjnego, powinien on wyglądać mniej więcej tak:
+
+- Domain: your.domain.com	
+- Type: CNAME
+- Target: secure.skyier.com
+
+4. Upewnij się, że dodałeś poprawną domenę do Ustawień strony w Skyier.
+
+5. Zaczekaj na weryfikację domeny i instalację darmowego certyfikatu SSL. Certyfikaty SSL instalują się raz na dobę, o 04.00 w nocy.
+
+6. Jeśli będziesz miał jakieś problemy, skontaktuj się z nami. Bardzo chętnie pomożemy.
+
+Linki do instrukcji wideo:
+
+- przekierowanie domeny głównej: https://www.youtube.com/watch?v=0aYXYqCVILY&t=309s
+
+- przekierowanie subdomeny: https://www.youtube.com/watch?v=cMElydWM6f8
+
+<br/>
+
+
 * **Język strony** - wersja językowa, w jakim będzie dostępna platforma dla studentów. Można wybrać wersję polską lub angielską.
 * **Waluta** - waluta, w jakiej będą pobierane opłaty za kursy online. Dostępne waluty: PLN, USD, GBP, EUR, CHF. 
 
