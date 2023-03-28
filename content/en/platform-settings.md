@@ -7,6 +7,8 @@ category: ''
 
 ## Ustawienia
 * **Nazwa strony** - nazwa ta będzie widoczna w lewym górnym rogu (tam, gdzie najczęściej wstawiane jest logo). Jeśli natomiast dodasz logo w poniższej sekcji OBRAZY to wówczas Nazwa strony zostanie zastąpiona logo. 
+* **Język strony** - wersja językowa, w jakim będzie dostępna platforma dla studentów. Można wybrać wersję polską lub angielską.
+* **Waluta** - waluta, w jakiej będą pobierane opłaty za kursy online. Dostępne waluty: PLN, USD, GBP, EUR, CHF. 
 * **Domena** - adres url, pod jakim będzie dostępna platforma do sprzedaży produktów online. Platforma może działać na subdomenie, przykład: kursy.nataliablizniuk.pl. lub na domenie głównej, przykład: nataliablizniuk.pl. 
 
 <br/>
@@ -29,17 +31,11 @@ category: ''
 
 6. Jeśli będziesz miał jakieś problemy, skontaktuj się z nami. Bardzo chętnie pomożemy.
 
-Linki do instrukcji wideo:
+**Linki do instrukcji wideo:**
 
 - przekierowanie domeny głównej: https://www.youtube.com/watch?v=0aYXYqCVILY&t=309s
 
 - przekierowanie subdomeny: https://www.youtube.com/watch?v=cMElydWM6f8
-
-<br/>
-
-
-* **Język strony** - wersja językowa, w jakim będzie dostępna platforma dla studentów. Można wybrać wersję polską lub angielską.
-* **Waluta** - waluta, w jakiej będą pobierane opłaty za kursy online. Dostępne waluty: PLN, USD, GBP, EUR, CHF. 
 
 <br>
 
